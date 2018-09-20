@@ -5,13 +5,12 @@ date:   2018-09-26 18:00:00 -0500
 categories: Events
 published:  false
 ---
-# Questions
+# Questions and Goals
 
 + Digital Manufacturing and Design Innovation Institute (DMDII)
 + Critical Infrastructure Resilience Institute (CIRI)
 
   - What are some ongoing works from these institutes?
-  -  
 
 + [NIST Cybersecurity Framework and Manufacturing Profile][profile]
 
@@ -23,6 +22,12 @@ published:  false
     + Software simulations test-beds, Digital Twins
 
 [profile]: https://www.nist.gov/mep/nist-cybersecurity-framework-and-manufacturing-profile
+
++ Identify people who are closer to or interested in our broad research area
+
+  - With sufficient technical background and experiences in industry
+  - Potential speakers for future events
+  - Further collaboration with industry or goverment
 
 # My Info
 
