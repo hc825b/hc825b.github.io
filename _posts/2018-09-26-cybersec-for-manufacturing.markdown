@@ -19,15 +19,25 @@ published:  false
   - What are some existing software or hardware infrastructures available for
     both manufacturers and researchers?
 
-    + Software simulations test-beds, Digital Twins
+    + Software simulated test-beds, Digital Twins
+    + Koushik mentioned in an [article] that a test-bed for penetration
+      testing is ongoing in DMDII
+    + NIST also has a [test-bed] but more for system design
 
 [profile]: https://www.nist.gov/mep/nist-cybersecurity-framework-and-manufacturing-profile
+[article]: https://www.smartindustry.com/articles/2018/big-fast-smart-vulnerable-manufacturing/
+[test-bed]:https://www.nist.gov/laboratories/tools-instruments/smart-manufacturing-systems-sms-test-bed
 
 + Identify people who are closer to or interested in our broad research area
 
   - With sufficient technical background and experiences in industry
+  
+    + Director of Manufacturing Cybersecurity, Koushik Subramanian
+  
   - Potential speakers for future events
-  - Further collaboration with industry or goverment
+  - Further collaboration with industry or government
+  
+
 
 # My Info
 
