@@ -102,7 +102,7 @@ development, or all of them are just about using existing software stacks?
 
   - Video about using social engineering to get access to the account
     [![Preview][video-img]][video-url]
-  - Inadvertent insider (E.g., victim of social engineering who is employee)
+  - Inadvertent insider (E.g., employee being deceived)
   - Preexisting infrastructure of already compromised network
 
 [video-img]:https://img.youtube.com/vi/lc7scxvKQOo/0.jpg
@@ -220,3 +220,85 @@ development, or all of them are just about using existing software stacks?
 + Incremental re-certifications?
 + Certified Patching
 + Unpatchable components
+
+## Panel: The Mindset of An Attacker
+
+Targeted by state affiliated group
+
++ Manufacturing is an easy target
++ First world country GDP
+
+Pen test technique for Operational Tech~(OT)
+
++ IT attack still works on OT Env
++ OT is more fragile therefore cause more damages if not pen tested properly
+
+  - Whole assembly line shut down just for pen tests is not helping 
+
+Backup plan
+
++ Security of the backup
++ Test how to restore the backup
++ Consultant from attacker minded
++ zero trust model
+
+  - Any user-touched component are dirty
+  - Network segment between dirty devices and critical infrastructure
+  - Trusted firmware
+
+Pen test brings down system (valid)
+
++ Traffic monitoring, passive measures, statically detect vulnerability
++ Resilience against pen testing is also a test on the backup plan
+
++ Most known exploits are difficulty to utilize
+
+## ISACA Training
+
+fdowns@isaca.org
+
+Trainings from basic network knowledge such as port scanning, packet sniffing, etc.
+to advanced scenarios of breach or attacks.
+
++ **Sandbox network environment** on Microsoft Azure and HyperV
+
+  - Scale up and down based on demand (students online)
+  - Emulation for different hardware architectures are not implemented.
+  - The developer thinks particular attacks against different hardwares such as
+    ARM CPU are possible; therefore, it is a valid point that it might be not
+    enough to virtualize network topology and service entry points that use only
+    x86 architecture.
+
+## [CyberSecureDashboard] by CIRI and Heartland
+
+How to comply to or even interpret the requirements and standards with hundreds
+of pages of details? Even worse there are different frameworks!
+
++ Provide web interface to cross-references and top-down views
+  (from abstract level to more and more details)
++ List best practices for guidance
++ Templates for policies
++ Document management and automatic tagging for search based on the web entry
+  point where the document is uploaded
+
+  - In their terms, the **implementation** that complies to the requirement
+
++ Aggregate all the information into a nice web interface? Not really!
+
+  - Also provides revision control over updates of "implementation" due to
+    changes in standards or framework
+  - Docker container to ship to any other internal server in the enterprise and
+    customizable to fit with existing databases
+
+[CyberSecureDashboard]:https://cybersecuredashboard.com/
+
+## Cyber Insurance
+
++ Started for integrity and secure storage of sensitive data
+
+  - Liability for the data
+
++ WANNACRY and NOTPETYA in 2017
++ Regulations (GDPR)
+
+Basic risk management: Avoid, Mitigate, Transfer, Accept
