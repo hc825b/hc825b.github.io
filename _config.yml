@@ -17,3 +17,5 @@ github_username: hc825b
 
 # Build settings
 markdown: kramdown
+theme: jekyll-theme-minimal
+show_downloads: false
