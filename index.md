@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Chiao 橋
 ---
 
 ## About Chiao
