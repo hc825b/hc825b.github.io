@@ -6,7 +6,9 @@ categories: Events
 published:  true
 ---
 
-"p.##" means the page number in shared slides.
+**Note: "p.##" means the page number in shared slides**
+
+*TODO Share the slides*
 
 ## About the institutes
 
@@ -17,6 +19,9 @@ published:  true
     digital technical (include but not limited to cybersecurity)
   - Hold four major workshops year round (See p.14)
 
+    + Other 3 workshops are less related to security but more on digital
+      manufacturing
+
 + About Critical Infrastructure Resilience Institute (CIRI),
   p.16~p.23
 
@@ -25,11 +30,14 @@ published:  true
   - Identify and help develop low-hanging fruit technology for manufacturing
   - Education and Training of cybersecurity for manufacturers and their 
     supply chains
-  - Promote NIST CSF Manufacturing Profile
-  - "Deliver Uncompromised", a document on strategies from the nation-wide 
-    point of view
+  - Promote [NIST CSF Manufacturing Profile][profile] (See later sections)
+  - Is also under Information Trust Institute in UIUC
 
 ## Main focuses of the workshop
+
+The main goal of the workshop is to raise the awareness of cybersecurity among
+manufacturers, and promote the NIST profile as a framework and guideline to
+implementation and evaluations on enforcing security measures.
 
 + [NIST Cybersecurity Framework and Manufacturing Profile][profile]
 
@@ -39,67 +47,21 @@ published:  true
     both manufacturers and researchers?
 
     + Software simulated test-beds, Digital Twins
-    + Koushik mentioned in an [article] that a test-bed for penetration
-      testing is ongoing in DMDII
     + NIST also has a [test-bed] but more for system design
 
 [profile]: https://www.nist.gov/mep/nist-cybersecurity-framework-and-manufacturing-profile
-[article]: https://www.smartindustry.com/articles/2018/big-fast-smart-vulnerable-manufacturing/
 [test-bed]:https://www.nist.gov/laboratories/tools-instruments/smart-manufacturing-systems-sms-test-bed
 
-+ Identify people who are closer to or interested in our broad research area
+## People who are closer to or may be interested in our broad research area
 
-  - With sufficient technical background and experiences in industry
++ With sufficient technical background and experiences in industry
   
-    + Director of Manufacturing Cybersecurity, Koushik Subramanian
-    + Director of R&D in ITAMCO, Joel Neidig
-  
-  - Potential speakers for future events
-  - Further collaboration with industry or government
-  
+  - Director of Manufacturing Cybersecurity in DMDII, Koushik Subramanian
+  - Director of R&D in ITAMCO, Joel Neidig
 
-# My Info
+## CYBERSECURITY THREATS IN TODAY’S WORLD
 
-+ [NSF CPS: Software Defined Control for Smart Manufacturing Systems][grant]
-
-  - Project is on formal model for controller networks in Manufacturing Systems
-  - I focus on security aspect of the system
-  - In particular, communication security analysis. In short, can we guarantee
-    messages are kept secret even when adversaries are sniffing and spoofing?
-
-
-[grant]: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1544901
-
-# Notes
-
-Test-bed is for the whole manufacturing process. Which aspect can we get involved?
-
-Digital thread?
-
-+ 73% of manufacturers have <= 20 employees in US
-  
-  - What about Taiwan?
-
-+ 2% over 500 people
-
-5 stages in the *learning cycle*?? They are also mentioned in the profile
-
-Other 3 workshops are less related to security but more on digital manufacturing
-
-Live breach!!
-
-CIRI is actually under ITI as well?
-
-Risk management is their focus. I guess it is not really related to our researches?
-
-Just in time inventory, Ransomware
-
-"deliver uncompromised"
-
-When he mentions cyber for supply chain, what parts exactly are about software
-development, or all of them are just about using existing software stacks?
-
-## Special Agent in FBI Chicago, Jason Rahoy's talk
+Presenter: Special Agent in FBI Chicago, Jason Rahoy
 
 The presentation slides are not provided
 
@@ -129,10 +91,10 @@ The presentation slides are not provided
   - Preexisting infrastructure of already compromised network
     (E.g., old phone network)
   - Inadvertent insider (E.g., employee being deceived as video below)
-  - Video about using social engineering to get access to a phone account  
-    [![Preview][video-img]][video-url]
 
-[video-img]:https://img.youtube.com/vi/lc7scxvKQOo/0.jpg
+    + [Video][video-url] about using social engineering to get access to a
+      phone account
+
 [video-url]:https://www.youtube.com/watch?v=lc7scxvKQOo
 
 + Proprietary systems allowing external network access
@@ -146,11 +108,13 @@ The presentation slides are not provided
   i.e., collecting publicly available information of a target employee with
   enough administration
 
-  - Oppose to my belief that it's actually rare to start from a known exploit
-    to certain softwares because those either are likely fixed or do not
-    provide enough permission to control the system.
+  - Opposite to my belief that it's actually rare to start from a known exploit
+    to certain softwares because those either are likely fixed or seldom provide
+    enough permission to compromise the system.
 
 ## ISACA 2018 State of Cybersecurity Survey
+
+p.28~p.61 in slides. Mainly about various survey results.
 
 + Education and Training: Top three attacks
 
@@ -179,24 +143,77 @@ The presentation slides are not provided
 
     + Not so common in software dev because of no safety or mission critical requirement
 
-## Break Session 1
+## Break Sessions
 
-+ Talked to Koushik about the test-bed system for pen testing. He said the
-  system is for internal use only now. There is a plan to provide external
-  access but unlikely to happen in 6-months or so.
+See p.71 for the three break sessions
 
-+ A live breach based on phishing mail and social engineering to ask employees
-  inside to install a fake update on software assisted assembly line 
-  (projecting images to the table to show which parts to assemble).
-  However, the adversary is able to obtain patented 3D printing design.
-  The attack is done in 15 mins.
+### ISACA Training Lab
+
+Presenter: T. Frank Downs, fdowns@isaca.org
+
+Provide trainings from basic network knowledge such as port scanning, packet
+sniffing, etc., or more advanced scenarios such as detecting breaches or
+recovering after attacks. Students are provided with a virtual machine and
+complete all tasks on the machine. The OS can Windows, Ubuntu, or Kali OS,
+and both CLI and GUI are supported.
+
++ **Sandbox network environment** based on Microsoft Azure and HyperV
+
+  - Scale up and down based on demand (i.e., how many students online)
+  - Emulation for different hardware architectures are not implemented.
+  - The developer thinks particular attacks against different hardwares such as
+    ARM CPU are possible; therefore, it is a valid point that it might be not
+    enough to virtualize network topology and service entry points that use only
+    x86 architecture.
+
+
+### MFG. FLOOR DEMO
+
+A live breach based on phishing mail and social engineering to ask a manager
+level employee to install a fake update on software used on assembly line 
+(a software projecting images on the table to show which parts to assemble).
+The adversary is able to obtain a patented design from a 3D printer connected
+to the network somewhere else. The attack is done in 15 mins.
+
++ Some reasons why the attack is so easily done
 
   - Email is not digitally signed 
   - Update program is not certified
   - Network are not segmented. Should have separated the 3d printers from
     assembly line computers
 
-## Booth and Exhibition
++ Asked Koushik about the system demoed for penetration testing. He said the
+  system is for internal use only now. There is a plan to provide external
+  access but unlikely to happen in half an year or so
+
+
+## [Cyber Secure Dashboard]
+
+Developed by CIRI and Heartland
+
+How to comply to or even interpret the requirements and standards with hundreds
+of pages in the framework? Even worse there are different frameworks!
+
++ Provide web interface to cross-references and top-down views
+  (from abstract level to more and more details)
++ List best practices for guidance
++ Templates for policies
++ Document management and automatic tagging based on the web entry point where
+  the document is uploaded
+
+  - In their terms, the **implementation** that complies to the requirement
+
++ Merely aggregate all the information into a nice web interface? Not really
+
+  - Also provides revision control over updates of "implementation" due to
+    changes in standards or framework
+  - Docker container to ship to any other internal server in the enterprise and
+    customizable to fit with existing databases
+
+[Cyber Secure Dashboard]:https://cybersecuredashboard.com/
+
+
+## Booths and Exhibition
 
 + Verve worked on energy grid and provide services to discover all devices
   in a place
@@ -280,44 +297,6 @@ Pen test brings down system (valid)
 
 + Most known exploits are difficulty to utilize
 
-## ISACA Training
-
-fdowns@isaca.org
-
-Trainings from basic network knowledge such as port scanning, packet sniffing, etc.
-to advanced scenarios such as breaches or attacks.
-
-+ **Sandbox network environment** on Microsoft Azure and HyperV
-
-  - Scale up and down based on demand (students online)
-  - Emulation for different hardware architectures are not implemented.
-  - The developer thinks particular attacks against different hardwares such as
-    ARM CPU are possible; therefore, it is a valid point that it might be not
-    enough to virtualize network topology and service entry points that use only
-    x86 architecture.
-
-## [CyberSecureDashboard] by CIRI and Heartland
-
-How to comply to or even interpret the requirements and standards with hundreds
-of pages of details? Even worse there are different frameworks!
-
-+ Provide web interface to cross-references and top-down views
-  (from abstract level to more and more details)
-+ List best practices for guidance
-+ Templates for policies
-+ Document management and automatic tagging for search based on the web entry
-  point where the document is uploaded
-
-  - In their terms, the **implementation** that complies to the requirement
-
-+ Aggregate all the information into a nice web interface? Not really!
-
-  - Also provides revision control over updates of "implementation" due to
-    changes in standards or framework
-  - Docker container to ship to any other internal server in the enterprise and
-    customizable to fit with existing databases
-
-[CyberSecureDashboard]:https://cybersecuredashboard.com/
 
 ## Cyber Insurance
 
@@ -329,3 +308,20 @@ of pages of details? Even worse there are different frameworks!
 + Regulations (GDPR)
 
 Basic risk management: Avoid, Mitigate, Transfer, Accept
+
+# More notes and thoughts
+
++ "Deliver Uncompromised", a document on strategies from the nation-wide 
+  point of view
+
++ Test-bed is for the whole manufacturing process. Which aspect can we get involved?
+
++ 73% of manufacturers have <= 20 employees in US and only 2% over 500 people
+
+Risk management is their focus. I guess it is not really related to our researches?
+
+Just in time inventory, Ransomware
+
++ Cyber for supply chain is mentioned many times, but what parts exactly are
+  about software development, or all of them are just about using existing
+  software stacks?
