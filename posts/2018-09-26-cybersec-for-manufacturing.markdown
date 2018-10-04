@@ -99,43 +99,54 @@ Just in time inventory, Ransomware
 When he mentions cyber for supply chain, what parts exactly are about software
 development, or all of them are just about using existing software stacks?
 
-### FBI agent's talk !!! Presenter: Jason Rahoy
+## Special Agent in FBI Chicago, Jason Rahoy's talk
+
+The presentation slides are not provided
+
+### Some stats and where to find them
 
 + [**IC3 Internet Crime Report**](IC3.gov)
 
   - Over $676M victim losses just from Business Email Compromise (BEC)
   - $2.3M over ransomware
-  - Tech Support Fraud (E.g., Fake refund, remote assistant)
+  - Tech Support Fraud (E.g., Fake refund for equipment, remote assistant, etc.)
   - Extortion $15M
 
-+ InfraGard.gov
++ 50% of attack targets small business <= 2500 (31 % <= 250 employees)
 
-  - information sharing platform
+  - Because these are easy targets
+
++ InfraGard.org
+
+  - Information sharing platform between FBI and private sectors
+
+### Some common attack vectors and case studies
 
 + Insider Threat
 
-  - Video about using social engineering to get access to the account
+  - Video about using social engineering to get access to a phone account  
     [![Preview][video-img]][video-url]
-  - Inadvertent insider (E.g., employee being deceived)
+  - Inadvertent insider (E.g., employee being deceived as above case)
   - Preexisting infrastructure of already compromised network
+    (E.g., old phone network)
 
 [video-img]:https://img.youtube.com/vi/lc7scxvKQOo/0.jpg
 [video-url]:https://www.youtube.com/watch?v=lc7scxvKQOo
 
-+ Target data breach
-
-  - Attack third party company (refrigeration supplier) and finally use their credentials
-    to attack the interface Target provided to this company
-
 + Proprietary systems allowing external network access
 
-+ 50% of attack targets small business <= 2500 (31 % <= 250 employees)
+  - Target (the department store company) data breach
+  - A third party company (refrigeration supplier) is attacked first,
+    and their credentials are used to attack the interface Target provided
+    to this company
 
-  - easy targets
++ Attacks normally start from social engineering on a specific target,
+  i.e., collecting publicly available information of a target employee with
+  enough administration
 
-+ Start from social engineering on a specific target??
-
-  - Not start from an exploit to certain software?
+  - Oppose to my belief that it's actually rare to start from a known exploit
+    to certain softwares because those either are likely fixed or do not
+    provide enough permission to control the system.
 
 ## ISACA 2018 State of Cybersecurity Survey
 
@@ -151,7 +162,7 @@ development, or all of them are just about using existing software stacks?
 
   - Win NT, 98, and even Dos
 
-+ Education for business owner and how they communicate with IT guys
++ Education for manufacturers and how they communicate with IT guys
 
   - No security means will work if their users are the weakness
 
@@ -272,7 +283,7 @@ Pen test brings down system (valid)
 fdowns@isaca.org
 
 Trainings from basic network knowledge such as port scanning, packet sniffing, etc.
-to advanced scenarios of breach or attacks.
+to advanced scenarios such as breaches or attacks.
 
 + **Sandbox network environment** on Microsoft Azure and HyperV
 
