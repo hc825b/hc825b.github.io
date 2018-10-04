@@ -124,24 +124,58 @@ p.28~p.61 in slides. Mainly about various survey results.
 
 ## Panel: State of Cybersecurity for manufacturing
 
+Mainly discussing that IT in manufacturing is far behind
+
 + Obsolete products running old OSs that cannot patched
 
   - Win NT, 98, and even Dos
 
-+ Education for manufacturers and how they communicate with IT guys
++ Education for manufacturers and how they communicate with IT support
 
-  - No security means will work if their users are the weakness
+  - No security tools will work if their users are the weak spot
 
 + Outsourcing IT framework
 + Manufacturing specific technical challenges in security
 
-  - No community like open source community in software development
-  - Authenticated patching, when patches might be from one of thousand vendors,
-    how to authenticate updates?
-  - Re-certification of the whole system due to updates on few modules
-    (hardware + softwares)
+  - No active community like open source community for software development
+  - Authenticated patching, when patches might be from one of a thousand vendors,
+    how to authenticate patches?
+  - Re-certification of the whole system due to updates on few hardware/software
 
-    + Not so common in software dev because of no safety or mission critical requirement
+    + Not so common in software development
+
+## Panel: The Mindset of An Attacker
+
+Targeted by state affiliated group
+
++ Manufacturing is an easy target
++ First world country GDP
+
+Pen test technique for Operational Tech~(OT)
+
++ IT attack still works on OT Env
++ OT is more fragile therefore cause more damages if not pen tested properly
+
+  - Whole assembly line shut down just for pen tests is not helping 
+
+Backup plan
+
++ Security of the backup
++ Test how to restore the backup
++ Consultant from attacker minded
++ zero trust model
+
+  - Any user-touched component are dirty
+  - Network segment between dirty devices and critical infrastructure
+  - Trusted firmware
+
+Pen test brings down system (valid)
+
++ Traffic monitoring, passive measures, statically detect vulnerability
++ Resilience against pen testing is also a test on the backup plan
+
++ Most known exploits are difficulty to utilize
+
 
 ## Break Sessions
 
@@ -213,7 +247,7 @@ of pages in the framework? Even worse there are different frameworks!
 [Cyber Secure Dashboard]:https://cybersecuredashboard.com/
 
 
-## Booths and Exhibition
+## Company Booths
 
 + Verve worked on energy grid and provide services to discover all devices
   in a place
@@ -230,7 +264,8 @@ of pages in the framework? Even worse there are different frameworks!
 + cyberpoint provides CATO, a small RasperyPI like device for the company to plug
   in to the network to discover devices (for Ethernet/IP only, not really on
   layer 2 protocols such as CAN bus), and provide a web interface to navigate
-  all dis covered devices, vulnerability analysis results, perform simulated attack.
+  all discovered devices, vulnerability analysis results. It can also perform
+  simulated attack.
 
     - Have to deal with nontrivial amount false alarms
 
@@ -265,37 +300,6 @@ of pages in the framework? Even worse there are different frameworks!
 + Certified Patching
 + Unpatchable components
 
-## Panel: The Mindset of An Attacker
-
-Targeted by state affiliated group
-
-+ Manufacturing is an easy target
-+ First world country GDP
-
-Pen test technique for Operational Tech~(OT)
-
-+ IT attack still works on OT Env
-+ OT is more fragile therefore cause more damages if not pen tested properly
-
-  - Whole assembly line shut down just for pen tests is not helping 
-
-Backup plan
-
-+ Security of the backup
-+ Test how to restore the backup
-+ Consultant from attacker minded
-+ zero trust model
-
-  - Any user-touched component are dirty
-  - Network segment between dirty devices and critical infrastructure
-  - Trusted firmware
-
-Pen test brings down system (valid)
-
-+ Traffic monitoring, passive measures, statically detect vulnerability
-+ Resilience against pen testing is also a test on the backup plan
-
-+ Most known exploits are difficulty to utilize
 
 
 ## Cyber Insurance
