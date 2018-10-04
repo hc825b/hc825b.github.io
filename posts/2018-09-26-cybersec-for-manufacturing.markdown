@@ -3,7 +3,7 @@ layout: post
 title:  "DMDII & CIRI's Cybersecurity for Manufacturing Workshop"
 date:   2018-09-26 18:00:00 -0500
 categories: Events
-published:  false
+published:  true
 ---
 
 "p.##" means the page number in shared slides.
