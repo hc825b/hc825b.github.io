@@ -56,12 +56,12 @@ implementation and evaluations on enforcing security measures.
 
 + With sufficient technical background and experiences in industry
   
-  - Director of Manufacturing Cybersecurity in DMDII, Koushik Subramanian
-  - Director of R&D in ITAMCO, Joel Neidig
+  - Koushik Subramanian, Director of Manufacturing Cybersecurity in DMDII
+  - Joel Neidig, Director of R&D in ITAMCO
 
 ## CYBERSECURITY THREATS IN TODAY’S WORLD
 
-Presenter: Special Agent in FBI Chicago, Jason Rahoy
+Presenter: Jason Rahoy, Special Agent in FBI Chicago
 
 The presentation slides are not provided
 
@@ -146,36 +146,38 @@ Mainly discussing that IT in manufacturing is far behind
 
 ## Panel: The Mindset of An Attacker
 
-Targeted by state affiliated group
+Manufacturers are targeted by state affiliated hacker group
 
 + Manufacturing is an easy target
-+ First world country GDP
++ Contribute to first world country GDP
 
-Pen test technique for Operational Tech~(OT)
+Penetration test technique for Operational Technology~(OT)
 
-+ IT attack still works on OT Env
-+ OT is more fragile therefore cause more damages if not pen tested properly
++ IT attack still works on OT environment
++ OT is more fragile therefore causes more damages if not pen-tested properly
++ Pen-tests for OT is more intricate than for IT
 
-  - Whole assembly line shut down just for pen tests is not helping 
+  - Whole assembly line shut down just for pen-tests is not helping
 
 Backup plan
 
 + Security of the backup
 + Test how to restore the backup
-+ Consultant from attacker minded
-+ zero trust model
++ Consultant from attacker minded professionals
 
-  - Any user-touched component are dirty
-  - Network segment between dirty devices and critical infrastructure
-  - Trusted firmware
+Zero trust model
 
-Pen test brings down system (valid)
++ Any user-touched component are dirty
++  Network segmentation between dirty devices and critical infrastructure
++ Trusted firmware
 
-+ Traffic monitoring, passive measures, statically detect vulnerability
-+ Resilience against pen testing is also a test on the backup plan
+Pen-test can bring down whole manufacturing process
+
++ Rely on traffic monitoring, passive measures to statically detect vulnerability
++ Avoid active network scan or spoofing etc.
++ Resilience against pen testing and test on the backup plan
 
 + Most known exploits are difficulty to utilize
-
 
 ## Break Sessions
 
