@@ -105,7 +105,7 @@ The presentation slides are not provided
 
 ### Some stats and where to find them
 
-+ [**IC3 Internet Crime Report**](IC3.gov)
++ [**IC3 Internet Crime Annual Report**][IC3]
 
   - Over $676M victim losses just from Business Email Compromise (BEC)
   - $2.3M over ransomware
@@ -116,19 +116,21 @@ The presentation slides are not provided
 
   - Because these are easy targets
 
-+ InfraGard.org
++ [InfraGard.org](https://www.infragard.org/)
 
   - Information sharing platform between FBI and private sectors
+
+[IC3]: https://www.ic3.gov/media/annualreports.aspx
 
 ### Some common attack vectors and case studies
 
 + Insider Threat
 
-  - Video about using social engineering to get access to a phone account  
-    [![Preview][video-img]][video-url]
-  - Inadvertent insider (E.g., employee being deceived as above case)
   - Preexisting infrastructure of already compromised network
     (E.g., old phone network)
+  - Inadvertent insider (E.g., employee being deceived as video below)
+  - Video about using social engineering to get access to a phone account  
+    [![Preview][video-img]][video-url]
 
 [video-img]:https://img.youtube.com/vi/lc7scxvKQOo/0.jpg
 [video-url]:https://www.youtube.com/watch?v=lc7scxvKQOo
