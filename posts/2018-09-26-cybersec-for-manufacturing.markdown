@@ -5,17 +5,31 @@ date:   2018-09-26 18:00:00 -0500
 categories: Events
 published:  false
 ---
-# Questions and Goals
 
-+ Digital Manufacturing and Design Innovation Institute (DMDII)
+"p.##" means the page number in shared slides.
 
+## About the institutes
 
-+ Critical Infrastructure Resilience Institute (CIRI)
++ About Digital Manufacturing and Design Innovation Institute (DMDII),
+  p.4~p.15
 
-  - Education and Training
-  - Identify and help develop Technology that is easy to transit to industry
+  - Provide resource to help manufacturers adopt productivity-enhancing 
+    digital technical (include but not limited to cybersecurity)
+  - Hold four major workshops year round (See p.14)
 
-    + Decide who receives funding from Department of Homeland Security (DHS)??
++ About Critical Infrastructure Resilience Institute (CIRI),
+  p.16~p.23
+
+  - Funded by Science & Technology Directorate in Department of Homeland
+    Security (DHS)
+  - Identify and help develop low-hanging fruit technology for manufacturing
+  - Education and Training of cybersecurity for manufacturers and their 
+    supply chains
+  - Promote NIST CSF Manufacturing Profile
+  - "Deliver Uncompromised", a document on strategies from the nation-wide 
+    point of view
+
+## Main focuses of the workshop
 
 + [NIST Cybersecurity Framework and Manufacturing Profile][profile]
 
