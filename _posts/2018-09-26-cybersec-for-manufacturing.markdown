@@ -30,27 +30,37 @@ published:  true
   - Identify and help develop low-hanging fruit technology for manufacturing
   - Education and Training of cybersecurity for manufacturers and their 
     supply chains
-  - Promote [NIST CSF Manufacturing Profile][profile] (See later sections)
+  - Promote [NIST CSF Manufacturing Profile][website] (See later sections)
   - Is also under Information Trust Institute in UIUC
 
 ## Main focuses of the workshop
 
 The main goal of the workshop is to raise the awareness of cybersecurity among
-manufacturers, and promote the NIST profile as a framework and guideline to
-implementation and evaluations on enforcing security measures.
+manufacturers, and promote the NIST profile as a framework and guideline for
+implementation and evaluations on cybersecurity measures.
 
-+ [NIST Cybersecurity Framework and Manufacturing Profile][profile]
++ NIST Cybersecurity Framework and Manufacturing Profile.
+  See [website] and [PDF].
 
-  - What are the guidelines for manufacturers?
-  - What is the road map for researchers?
-  - What are some existing software or hardware infrastructures available for
-    both manufacturers and researchers?
+  - Five-stage (or they call *function*) guidelines for manufacturers
+    (copied from the profile)
 
-    + Software simulated test-beds, Digital Twins
-    + NIST also has a [test-bed] but more for system design
+    + Identify - Develop an organizational understanding to manage
+      cybersecurity risk to systems, people, assets, data, and capabilities.
+    + Protect - Develop and implement appropriate safeguards to ensure delivery
+      of critical services.
+    + Detect - Develop and implement appropriate activities to identify the
+      occurrence of a cybersecurity event.
+    + Respond - Develop and implement appropriate activities to take action
+      regarding a detected cybersecurity incident.
+    + Recover - Develop and implement appropriate activities to maintain plans
+      for resilience and to restore any capabilities or services that were
+      impaired due to a cybersecurity incident.
 
-[profile]: https://www.nist.gov/mep/nist-cybersecurity-framework-and-manufacturing-profile
-[test-bed]:https://www.nist.gov/laboratories/tools-instruments/smart-manufacturing-systems-sms-test-bed
+  - More finer categories and subcategories under each function
+
+[website]: https://www.nist.gov/mep/nist-cybersecurity-framework-and-manufacturing-profile
+[PDF]: http://nvlpubs.nist.gov/nistpubs/ir/2017/NIST.IR.8183.pdf
 
 ## People who are closer to or may be interested in our broad research area
 
@@ -116,7 +126,7 @@ The presentation slides are not provided
 
 p.28~p.61 in slides. Mainly about various survey results.
 
-+ Education and Training: Top three attacks
++ Education and Training to avoid top three attacks
 
   - Phishing
   - Malware (Ransomware)
@@ -126,7 +136,7 @@ p.28~p.61 in slides. Mainly about various survey results.
 
 Mainly discussing that IT in manufacturing is far behind
 
-+ Obsolete products running old OSs that cannot patched
++ Obsolete products running old OSs that cannot be patched
 
   - Win NT, 98, and even Dos
 
@@ -188,7 +198,7 @@ Pen-test can bring down whole manufacturing process
 
 ## Break Sessions
 
-See p.71 for the three break sessions
+See p.73 for the three break sessions
 
 ### ISACA Training Lab
 
@@ -301,12 +311,13 @@ See p.77~p.86
   + Closely related to our NSF project
   + They are opening a new branch office at Chicago
 
-
 + Identify3D provides a software to encrypt all data in centralized server,
   and enforce authentication over all communications internally and more strict
   for data sharing to external parties such as other companies in supply chain.
 
 ## Cyber Insurance
+
+Too far for me to understand
 
 + Started for integrity and secure storage of sensitive data
 
@@ -322,14 +333,23 @@ Basic risk management: Avoid, Mitigate, Transfer, Accept
 + "Deliver Uncompromised", a document on strategies from the nation-wide 
   point of view
 
-+ Test-bed is for the whole manufacturing process. Which aspect can we get involved?
++ What are some existing software or hardware infrastructures available for
+  both manufacturers and researchers?
+
+  - Software simulated test-beds, Digital Twins
+  - NIST also has a [test-bed] but more for system design
+  - Test-bed is for the whole manufacturing process. Which aspect can we get involved?
+
+[test-bed]:https://www.nist.gov/laboratories/tools-instruments/smart-manufacturing-systems-sms-test-bed
 
 + 73% of manufacturers have <= 20 employees in US and only 2% over 500 people
 
-Risk management is their focus. I guess it is not really related to our researches?
-
-Just in time inventory, Ransomware
++ Just in time inventory, Ransomware
 
 + Cyber for supply chain is mentioned many times, but what parts exactly are
   about software development, or all of them are just about using existing
   software stacks?
+
++ What is the road map for researchers in the profile?
+
+  - https://www.nist.gov/cyberframework/related-efforts-roadmap
