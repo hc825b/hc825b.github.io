@@ -144,6 +144,13 @@ Mainly discussing that IT in manufacturing is far behind
 
     + Not so common in software development
 
+Some other important issues
+
++ Still ensure security when integrating a third-party module
++ Incremental re-certifications?
++ Certified Patching
++ Unpatchable components
+
 ## Panel: The Mindset of An Attacker
 
 Manufacturers are targeted by state affiliated hacker group
@@ -223,7 +230,7 @@ to the network somewhere else. The attack is done in 15 mins.
   access but unlikely to happen in half an year or so
 
 
-## [Cyber Secure Dashboard]
+### [Cyber Secure Dashboard]
 
 Developed by CIRI and Heartland
 
@@ -251,17 +258,15 @@ of pages in the framework? Even worse there are different frameworks!
 
 ## Company Booths
 
+See p.77~p.86
+
 + Verve worked on energy grid and provide services to discover all devices
   in a place
 
-  - Kurt
+  - Presenter: Kurt (I didn't get the last name)
   - An agent (a program) that are spread to any device that are capable of
-    running itself. Sounds like a worm to me
+    running itself. Sounds like a worm program to me.
   - A database that helps identify the device
-
-+ Identify3D provides a software to encrypt all data in centralized server,
-  and enforce authentication over all communications internally and more strict
-  for data sharing to external parties such as other companies in supply chain.
 
 + cyberpoint provides CATO, a small RasperyPI like device for the company to plug
   in to the network to discover devices (for Ethernet/IP only, not really on
@@ -276,33 +281,30 @@ of pages in the framework? Even worse there are different frameworks!
 
     - The developer thinks an attack purely on flaws of layer 2 protocols is
       possible but extremely unlikely. Some low level devices such as CNC
-      easily hang (and thus be detected) if packets are ill-formed;
+      easily hang (and thus the attack is detected) if packets are ill-formed;
       hence these networks are most likely isolated and only connected to a PC
-      that controls them.
-    - Access those PCs is a more plausible scenario.
+      that controls them. Accessing those PCs is a more plausible scenario.
     - Automatic discovering devices over low level buses seems to be technically
-      difficult. Two 
-    - In this case, it does not seem to be important to investigate layer 2
+      difficult.
+    - In this case, I don't think it is important to investigate layer 2
       protocol security for manufacturing. Safety-wise I don't know.
 
 + IoTium provides software defined infrastructure
 
+  + Presenter: Ron Victor
   + Eliminate human interactions when deploying system
   + Provide gateway device blocking any access to devices behind except from their
     services hosted on AWS, as well as, the functionality of SDN Datapath to expose
     visibility
   + Their service on AWS is the SDN controller responding to application requests
     on desired network configs
-  + Closely related to the NSF project
-
-## Important Issues
-
-+ Still ensure security when integrating a third-party module
-+ Incremental re-certifications?
-+ Certified Patching
-+ Unpatchable components
+  + Closely related to our NSF project
+  + They are opening a new branch office at Chicago
 
 
++ Identify3D provides a software to encrypt all data in centralized server,
+  and enforce authentication over all communications internally and more strict
+  for data sharing to external parties such as other companies in supply chain.
 
 ## Cyber Insurance
 
