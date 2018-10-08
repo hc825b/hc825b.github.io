@@ -6,9 +6,7 @@ categories: Events
 published:  true
 ---
 
-**Note: "p.##" means the page number in shared slides**
-
-*TODO Share the slides*
+**Note: "p.##" means the page number in shared slides. The slides are shared internally only.**
 
 ## About the institutes
 
@@ -144,7 +142,7 @@ Mainly discussing that IT in manufacturing is far behind
 
   - No security tools will work if their users are the weak spot
 
-+ Outsourcing IT framework
++ Outsourcing IT framework is a potential weakness
 + Manufacturing specific technical challenges in security
 
   - No active community like open source community for software development
