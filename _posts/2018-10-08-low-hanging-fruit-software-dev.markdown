@@ -43,16 +43,20 @@ For more, check https://guides.github.com/introduction/git-handbook/
 
 + Local Repository (after `commit` before `push`)
 
-    - `git commit --amend`
-    - `git reset <older-commit>`
-    - Revert changes using `git revert` instead of manually changing it back
+    - `git commit --amend`, modify/update `HEAD` commit
+    - `git reset <commit>`, discard all commit history after `<commit>`
+    - `git revert <commit>`, make a new commit that undo the changes made at `<commit>`
 
-        + Allow Git to discover automatic merge strategy more easily
+        + Using this instead of manually changing it back allows git to discover
+          automatic merge strategy more easily
+
+    - `git rebase -i`, reduce unnecessary merge commits by rebasing the local branch
 
 + Remote Repository (where you `push` to and `pull` from)
 
-    - `git remote show <remote-repo>`
-    - Reduce unnecessary merge commits with `git rebase`
+    - `git remote show <remote-name>`
+    - You really can't/shouldn't change the history on the remote repository
+
 
 ## Git Practice
 
@@ -69,7 +73,7 @@ Personal Discipline
 
     - Even when you finished a chunk in a day, try to divide into small parts
       and commit separately
-    - Leave *TODO* as placeholder and finish work in later commits
+    - Leave *TODO* as placeholders and finish work in later commits
 
 ## Continuous Integration
 
