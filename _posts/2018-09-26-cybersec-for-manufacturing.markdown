@@ -154,6 +154,7 @@ Mainly discussing that IT in manufacturing is far behind
 
 Some other important issues
 
++ Updates on software without affecting manufacturing process
 + Still ensure security when integrating a third-party module
 + Incremental re-certifications?
 + Certified Patching
