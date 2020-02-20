@@ -52,7 +52,9 @@ Should consider error bound or error distributions.
 
 #### Traces
 
-TODO
+Based on the definition in "Static and Dynamic Analysis of Timed Distributed Traces"
+we can simplify/revise the definition to account for periodic sampling
+and explore if this can help in monitoring/replaying/predicting.
 
 #### Invariants
 
@@ -114,7 +116,7 @@ the probability is ignorable.
 ## Related Topics
 
 + "Static and Dynamic Analysis of Timed Distributed Traces", Duggirala et al, RTSS 2012
-+ "Safety verification for linear systems", Duggirala et al, EMSOFT 2013
++ "Verification of Annotated Models from Executions", Duggirala et al, EMSOFT 2013
 
   - Definition of traces and numerical simulation
 
@@ -126,6 +128,3 @@ the probability is ignorable.
 
   - "Optimal Data Rate for State Estimation of Switched Nonlinear Systems", HSCC 2017
   - "Entropy and Minimal Data Rates for State Estimation and Model Detection", HSCC 2016
-
-
-
