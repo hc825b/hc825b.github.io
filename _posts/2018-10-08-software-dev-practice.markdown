@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Low-hanging Fruit in Software Development Process for CS Research Projects"
+title:  "Software Development Practices for CS Research Projects"
 date:   2018-10-08 12:00:00 -0500
-categories: Meetings
-published:  false
+categories: Notes
+published:  true
 ---
 
 For more, check https://guides.github.com/introduction/git-handbook/
@@ -55,7 +55,13 @@ For more, check https://guides.github.com/introduction/git-handbook/
 + Remote Repository (where you `push` to and `pull` from)
 
     - `git remote show <remote-name>`
-    - You really can't/shouldn't change the history on the remote repository
+
+        + You really can't/shouldn't change the history on the remote repository
+    
+    - `git remote set-url <remote-name> <new-url>`
+
+        + Changing a remote repository's URL. Useful when changing from https to ssh protocol
+          or migrating repositories from GitHub to school private Git host for example.
 
 
 ## Git Practice
@@ -68,19 +74,34 @@ Tool-assisted
 
 Personal Discipline
 
-+ Meaningful commit messages
++ Take an extra minute to leave a meaningful commit message.
 + Small changes everyday or every hour is much better than a huge chunk of changes of a week
 
-    - Even when you finished a chunk in a day, try to divide into small parts
-      and commit separately
+    - Divide large number of changes into small chuck of incremental changes.
+      It will be easier to understand the rationale behind the commits.
+      A rule of thumb is try to change less than five files at a time.
     - Leave *TODO* as placeholders and finish work in later commits
+
+
+## Testing
+
++ Each unit test file should be self-contained.
+  Avoid reading files as much as possible bacuase reading files easily causes flaky tests.
++ For developing Python packages, tests should be outside of the package because of following reasons:
+
+    - The tests should be able to run outside of the package to mimic how users use the package.
+      This can quickly detect if your code assumes some strict folder structures that causes troubles
+      for importing packages.
+    - Users of the package should not need to download the test files.
+      If they need to download test files to use the package,
+      there are code in your tests that should be in your package instead.
+    - Test code may depend on more Python packages than needed by users.
+      For examaple, Matplotlib is often used to visualize the result; hence sometimes we use it to
+      visually check the correctness of test results.
+      However, Matplotlib is often unnecessary in order to use some methods in a package,
+      but installing Matplotlib normally requires a bunch of other dependecies.
+
 
 ## Continuous Integration
 
-+ Automatic Style Checking, Building, and Testing
-+ 
-
-
-## Coding Practice
-
-+ Unit tests
++ Automatically rerun Style Checking, Building, and Testing every time a new commit is pushed
