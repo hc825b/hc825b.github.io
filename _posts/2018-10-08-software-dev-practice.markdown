@@ -105,3 +105,9 @@ Personal Discipline
 ## Continuous Integration
 
 + Automatically rerun Style Checking, Building, and Testing every time a new commit is pushed
+
+
+## Cloud Services (Amazon AWS, Microsoft Azure, etc.)
+
++ Virtual machine images with preinstalled OS, APT packages, Python packages, precompiled binaries,
+  etc. to provide users a prepared environment to try out the package.
