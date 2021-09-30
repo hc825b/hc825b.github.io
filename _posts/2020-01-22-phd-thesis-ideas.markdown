@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "PhD Thesis Ideas"
+title:  "Past PhD Thesis Ideas"
 date:   2020-01-22 07:30:00 -0500
 categories: Ideas
-published:  false
+published:  true
 ---
 
 ## Thesis topics in one sentence
