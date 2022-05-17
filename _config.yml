@@ -9,8 +9,7 @@
 title: 橋 Chiao
 email: hc825b@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  This is the project to develop Chiao, the view of myself as a computer
-  scientist and a researcher.
+  This is the project to develop Chiao.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://hc825b.github.io" # the base hostname & protocol for your site
 github_username: hc825b
