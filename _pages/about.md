@@ -4,6 +4,15 @@ title: About Chiao
 permalink: /about/
 ---
 
+### How to write my name
+正體中文(Traditional Chinese): 謝橋
+简体中文(Simplified Chinese): 谢桥
+
+#### How to pronunce my name
+注音: ㄒㄧㄝˋ ㄑㄧㄠˊ  
+Pinyin: Xie4 Qiao2  
+
+
 I am a PhD student in [CS @ Illinois] and research in
 [Programming Languages, Formal Methods, and Software Engineering][PL/FM/SE]
 area.

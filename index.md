@@ -1,5 +1,6 @@
 ---
 layout: home
+title: 謝 橋 (Hsieh, Chiao)
 ---
 
 I am a PhD student in [CS @ Illinois] and research in

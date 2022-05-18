@@ -26,7 +26,14 @@ defaults:
     values:
       image: true
 
+# Includes & excludes
+include: ['_pages']
+exclude:
+  - bin
+  - Gemfile
+  - Gemfile.lock
+  - vendor
 
 header_pages:
-  - about.md
-  - projects.md
+  - _pages/about.md
+  - _pages/projects.md
