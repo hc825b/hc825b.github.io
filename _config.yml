@@ -25,3 +25,8 @@ defaults:
       path: "assets/icons"
     values:
       image: true
+
+
+header_pages:
+  - about.md
+  - projects.md
