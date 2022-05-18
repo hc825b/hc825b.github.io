@@ -17,3 +17,9 @@ github_username: hc825b
 # Build settings
 markdown: kramdown
 theme: minima
+
+defaults:
+  - scope:
+      path: "assets/icons"
+    values:
+      image: true
