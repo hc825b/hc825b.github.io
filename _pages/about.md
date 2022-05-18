@@ -36,10 +36,8 @@ English: Hsieh, Chiao
 音読み(On'yomi): シャ/sha キョウ/kyou  
 
 
-#### How my name can be interepreted
+#### How characters in my name may be interepreted
 
-**謝**  
-Google translate: thank, wither  
-
-**橋**  
-Google translate: bridge  
+Chinese to English by Google translate
++ **謝**: 謝謝 -> thank, 感謝 -> appreciate, 凋謝 -> wither, 謝罪 -> apologize, 謝絕 -> decline
++ **橋**: 橋 -> bridge
