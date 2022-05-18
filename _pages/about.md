@@ -1,16 +1,19 @@
 ---
 layout: page
-title: About Chiao
+title: About 橋
 permalink: /about/
 ---
 
-### How to write my name
-正體中文(Traditional Chinese): 謝橋
-简体中文(Simplified Chinese): 谢桥
+#### How my name may be written
+正體中文(Traditional Chinese): 謝橋  
+简体中文(Simplified Chinese): 谢桥  
+日本漢字(Japanese Kanji): 謝橋  
 
-#### How to pronunce my name
-注音: ㄒㄧㄝˋ ㄑㄧㄠˊ  
-Pinyin: Xie4 Qiao2  
+#### How my name may be pronunced or spelled
+
+注音(Zhuyin): ㄒㄧㄝˋ ㄑㄧㄠˊ  
+拼音(Pinyin): Xie4 Qiao2  
+ひらがな(Hiragana): しゃ きょう  
 
 
 I am a PhD student in [CS @ Illinois] and research in
