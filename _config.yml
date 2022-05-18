@@ -6,10 +6,10 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: 橋 Chiao
+title: 橋
 email: hc825b@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  This is the project to develop Chiao.
+  This is the project to develop 橋.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://hc825b.github.io" # the base hostname & protocol for your site
 github_username: hc825b
