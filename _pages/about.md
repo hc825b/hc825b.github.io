@@ -21,6 +21,9 @@ For further information, you can check my [Linkedin] profile.
 
 ### Fun facts about my name
 
+The two Chinese characters in my name are commonly used, but they may be written, pronounced, and interpreted differently under different languages, regions, and contexts.
+
+
 #### How my name may be written
 
 正體中文(Traditional Chinese): 謝橋  
@@ -29,15 +32,24 @@ English: Hsieh, Chiao
 日本漢字(Japanese Kanji): 謝橋  
 
 
-#### How my name may be pronunced or spelled
+#### How my name may be pronounced or spelled
 
 注音(Zhuyin): ㄒㄧㄝˋ ㄑㄧㄠˊ  
 拼音(Pinyin): Xiè Qiáo  
 音読み(On'yomi): シャ/sha キョウ/kyou  
 
 
-#### How characters in my name may be interepreted
+#### How characters in my name may be interpreted in different contexts
 
 Chinese to English by Google translate
-+ **謝**: 謝謝 -> thank, 感謝 -> appreciate, 凋謝 -> wither, 謝罪 -> apologize, 謝絕 -> decline
-+ **橋**: 橋 -> bridge
++ **謝**: 謝謝 -> thank, 感謝 -> appreciate, 凋謝 -> wither, 謝罪 -> apologize, 謝絕 -> decline, 新陳代謝 -> metabolism
++ **橋**: 橋 -> bridge, 橋接器 -> bridge (as the networking device in Computer Network)
+
+Japanese to English by Google translate
++ **謝**: 謝る(あやまる) -> apologize, 感謝(かんしゃ) -> appreciate, 謝絕(しゃぜつ) -> decline, 新陳代謝(しんちんたいしゃ) -> metabolism
++ **橋**: 橋(はし) -> bridge
+
+
+#### Places with the same name
+
+
