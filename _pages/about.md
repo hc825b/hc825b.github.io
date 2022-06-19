@@ -4,19 +4,25 @@ title: About 橋
 permalink: /about/
 ---
 
-I am a PhD student in [CS @ Illinois] and research in
-[Programming Languages, Formal Methods, and Software Engineering][PL/FM/SE]
-area.
-Currently, I am doing research with my advisor, [Prof. Sayan Mitra][mitras],
-and work as a graduate research assistant at [Information Trust Institute][ITI].
+I am a PhD student in [CS @ Illinois] and research with my advisor, [Prof. Sayan Mitra][mitras], in
+[Programming Languages, Formal Methods, and Software Engineering][PL/FM/SE] area.
 
-For further information, you can check my [Linkedin] profile.
+Before joining *TODO: master and bachelor degree*
+
 
 [CS @ Illinois]: https://cs.illinois.edu/
 [PL/FM/SE]: https://cs.illinois.edu/research/programming-languages-formal-methods-and-software-engineering
+
 [mitras]: http://mitras.ece.illinois.edu/
 [ITI]: https://iti.illinois.edu/
-[Linkedin]: https://www.linkedin.com/in/hc825b
+
+
+### Services and Volunteering
+
++ Student Volunteer in FLoC 2022
++ Artifact Evaluation Committee in ECOOP 2022 (Best Reviewer Award)
++ Graduate Mentor in PURE program in Fall 2018
++ Student Volunteer in ASE 2017
 
 
 ### Fun facts about my name
