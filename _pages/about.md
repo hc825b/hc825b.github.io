@@ -5,16 +5,19 @@ permalink: /about/
 ---
 
 I am a PhD student in [CS @ Illinois] and research with my advisor, [Prof. Sayan Mitra][mitras], in
-[Programming Languages, Formal Methods, and Software Engineering][PL/FM/SE] area.
+[Programming Languages, Formal Methods, and Software Engineering][PL/FM/SE] area. 
+<img align="right" width="30%" src="/assets/pics/chiao-portrait-by-0726Crab.jpg">
 
-Before joining *TODO: master and bachelor degree*
-
+Before joining CS @ Illinois, I obtained my master's degree at [Graduate Institute of Electronics Engineering](ntugiee) and my bachelor's degree at [Department of Electrical Engineering](ntuee) in Nation Taiwan University.
 
 [CS @ Illinois]: https://cs.illinois.edu/
 [PL/FM/SE]: https://cs.illinois.edu/research/programming-languages-formal-methods-and-software-engineering
 
 [mitras]: http://mitras.ece.illinois.edu/
 [ITI]: https://iti.illinois.edu/
+
+[ntugiee]: https://giee.ntu.edu.tw/en/
+[ntuee]: https://www.ee.ntu.edu.tw/eng/
 
 
 ### Services and Volunteering
