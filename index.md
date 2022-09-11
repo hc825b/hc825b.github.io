@@ -4,8 +4,7 @@ title: 謝 橋 (Hsieh, Chiao)
 ---
 
 I am a PhD candidate in [CS @ Illinois] and research in
-[Programming Languages, Formal Methods, and Software Engineering][PL/FM/SE]
-area.
+[Programming Languages, Formal Methods, and Software Engineering][PL/FM/SE] area.
 Currently, I am doing research with my advisor, [Prof. Sayan Mitra][mitras] in [Reliable Autonomy Group][mitras-group],
 and work as a graduate research assistant at [Information Trust Institute][ITI].
 
