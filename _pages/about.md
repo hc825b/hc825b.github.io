@@ -8,7 +8,8 @@ I am a PhD student in [CS @ Illinois] and research with my advisor, [Prof. Sayan
 [Programming Languages, Formal Methods, and Software Engineering][PL/FM/SE] area. 
 <img align="right" width="30%" src="/assets/pics/chiao-portrait-by-0726Crab.jpg">
 
-Before joining CS @ Illinois, I obtained my master's degree at [Graduate Institute of Electronics Engineering](ntugiee) in Nation Taiwan University. At the same, I worked under Prof. Yu-fang Chen and Prof. Bao-yaw Wang as a part-time research assistant in [Institute of Information Science](iis) in Academia Sinica.
+Before joining CS @ Illinois, I worked under Prof. Yu-fang Chen and Prof. Bao-yaw Wang as a research assistant in [Institute of Information Science](iis) in Academia Sinica.
+At the same time, I obtained my master's degree with Prof. Farn Wang at [Graduate Institute of Electronics Engineering](ntugiee) in Nation Taiwan University.
 
 I finished my undergrad at [Department of Electrical Engineering](ntuee) in NTU. For my entire senior year, I had the chance to learn about hardware verification with Dr. Jason Chou and [Prof. Ric Huang](ric). I was then first exposed to formal methods and their applications in Electronic Design Automation.
 
@@ -51,7 +52,7 @@ English: Hsieh, Chiao
 拼音(Pinyin): Xiè Qiáo  
 音読み(On'yomi): シャ/sha キョウ/kyou  
 
-I was told several times that my given name *Chiao* sounds almost identical to a common Italian word *Ciao* which can serve as both hello and goodbye.
+I was told several times that my given name 橋 sounds almost identical to a common Italian word *Ciao* which can serve as both hello and goodbye.
 
 
 #### How characters in my name may be interpreted in different contexts
