@@ -34,7 +34,7 @@ I remember my first ever programming project is to find solutions to the 5x5 [Li
 [lightsout]: https://mathworld.wolfram.com/LightsOutPuzzle.html
 
 
-### Services and Volunteering
+## Services and Volunteering
 
 + Student Volunteer in FLoC 2022
 + Artifact Evaluation Committee in ECOOP 2022 (Best Reviewer Award)
@@ -42,12 +42,14 @@ I remember my first ever programming project is to find solutions to the 5x5 [Li
 + Student Volunteer in ASE 2017
 
 
-### Fun facts about my name
+## Fun facts about my name
 
-The two Chinese characters in my name are simple and common words, and kids in Chinese speaking countries will recognize them even before entering elementary. The two characters however may be written, pronounced, and interpreted differently under different languages, regions, and contexts.
-I found these facts interesting as 
+The two Chinese characters in my name are simple and common words, and kids in Chinese speaking countries will recognize them even before entering elementary schools.
+The two characters however may be written, pronounced, and interpreted differently under different languages, regions, and contexts.
+As a computer science researcher that also has to learn about electrical engineering and mechanical engineering,
+I found these facts interesting as it mentally matches to the root causes of bugs in programming like ambiguous language semantics, nondeterministic behaviors depending on context/environment, and most frustrating of all, different conventions in different communities.
 
-
+### Syntax
 #### How my name may be written
 
 正體中文(Traditional Chinese): 謝橋  
@@ -63,7 +65,7 @@ English: Hsieh, Chiao
 
 I was told several times that my given name 橋 sounds almost identical to a common Italian word *Ciao* which can serve as both hello and goodbye.
 
-
+### Semantics
 #### How characters in my name may be interpreted in different contexts
 
 Chinese to English by Google translate
@@ -75,6 +77,28 @@ Japanese to English by Google translate
 + **橋**: 橋(はし) -> bridge
 
 
-#### Places with the same name
+### Appearance in Ancient Chinese Poems
 
-TODO: paste Google map link
+小令尊前見玉簫。銀燈一曲太妖嬈。歌中醉倒誰能恨，唱罷歸來酒未消。
+春悄悄，夜迢迢。碧雲天共楚宮遙。夢魂慣得無拘檢，又踏楊花過謝橋。
+—— 晏幾道《鷓鴣天》
+
+誰翻樂府淒涼曲？風也蕭蕭，雨也蕭蕭，瘦盡燈花又一宵。不知何事縈懷抱，醒也無聊，醉也無聊，夢也何曾到謝橋。
+—— 納蘭性德《採桑子》
+
+Both poems uses 謝橋 as a metonym of the "bridge" connecting to where the authors meet their ideal female or the performer they adore and admire, much like the Japanese idol in my interpretation.
+It originates from a talented 妓 (female performer trained in music and dancing, though its modern meaning has changed) with the surname 謝.
+謝家 (Xie's house) is then used to refer to the high end place to enjoy her performance (similar to a Geisha House),
+and 謝橋 means the path to the place and, in my interpretation, symbolizes the connection to the great enjoyment from meeting their idol.
+
+
+### Places with the same name
+
+There are plenty of 谢桥 (Xie bridge) and 谢桥村 (Xieqiao village) in Mainland China to my surprise.
+The following is the top five results from Google Map.
+
+https://goo.gl/maps/NBwvENznVaMmvTn6A  
+https://goo.gl/maps/h2JxnsZ9UntNpPnQ7  
+https://goo.gl/maps/SFddjEoED1aqYXuY9  
+https://goo.gl/maps/bvUmXAizH8cQ2YD27  
+https://goo.gl/maps/upKBhHwSotjCEGBw5  
