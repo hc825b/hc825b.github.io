@@ -4,7 +4,7 @@ title: Research Projects
 permalink: /projects/
 ---
 
-My broad research direction is the formal *assurance* of the cyber-physical system~(CPS) containing complex components that are incompletely specified or currently intractable for existing formal verification techniques.
+My broad research direction is the formal *assurance* of the cyber-physical system (CPS) containing complex components that are incompletely specified or currently intractable for existing formal verification techniques.
 
 In my study, I have been investigating several systems containing incomplete vehicle dynamics, vision-based perception pipelines, communication protocols, or combinations of all.
 The main intuition behind all case studies is to achieve the *separation of concerns* via abstractions of components.
@@ -18,17 +18,18 @@ the crucial step is to select a proper abstraction for each component that is su
 
 Under construction.
 
-**TODO**:
-+ Hsieh et al., "Verifying Controllers with Vision-based Perception using Safe Approximate Abstractions", EMSOFT 2022
-+ Project with the Boeing company.
+
+### References
+Ordered by relevance:
++ Hsieh et al., *Verifying Controllers with Vision-based Perception using Safe Approximate Abstractions*, EMSOFT 2022
++ Hsieh et al., *Assuring safety of vision-based swarm formation control*, Under submission to ICRA 2023
 
 
-## CyPhyHouse: toolchain for distributed robotics
+## Programming Abstractions for Distributed Robotics
 
-Project Webcite: <https://cyphyhouse.github.io>  
-References:
+Project Website: <https://cyphyhouse.github.io>  
 
-I have been in the CyPhyHouse team since Summer 2018. CyPhyHouse aims to provide programming, debugging, and deployment for distributed robotic applications~(DRAs). Users can develope distributed applications using the high-level, hardware-agnostic, event driven Koord programming language included with CyPhyHouse, without requiring deep expertise in controller design or distributed network protocols.
+I have been in the CyPhyHouse team since Summer 2018. CyPhyHouse aims to provide programming, debugging, and deployment for distributed robotic applications (DRAs). Users can develope distributed applications using the high-level, hardware-agnostic, event driven Koord programming language included with CyPhyHouse, without requiring deep expertise in controller design or distributed network protocols.
 
 One key abstraction provided by the Koord language is *synchronous logically*.
 That is, Koord program language aims to provide a synchronous round-based semantics though physically running on a distributed asynchronous multi-robot system.
@@ -36,12 +37,36 @@ Under this language semantic, the *Koord users*, such as control theorist, can d
 The *Koord compiler developers* focus on design and implement the middleware that achieves the synchronous semantics with a well-defined set of asynchronous communication primitives such as *Physically-Asynchronous Logically-Synchronous (PALS)* System.
 The *hardware platform developers* then concentrates on supporting the robot control commands delivered through the communication primitives for each kind of vehicles.
 
-Such separation of concerns not only lowers the barrier of programming DRAs but also decomposes the verification and debugging tasks for the communication components~(platform independent) and robot control components~(platform dependent).
+On the other thread, we also study the asynchronous communication model, Input/Output Automata. 
+
+```
+TODO Refine the paragraph
+The insight behind SkyTrakx and Smart manufacturing is shared intent and responsibility sensitive. Each robot shares intent information describing its plan of movement e.g., Operational Volume for UTM.
+The communication protocol is to ensure the plans from different robots are not conflicting.
+This reduces the communication to ensure consistency and mutual exclusion which are well studied topics.
+Then, each robot is responsible for its physical behavior/dynamics.
+It should abide by its shared intent for the planned time horizon. The abstraction happens in that the plan can over-approximate the true physical behavior for simplicity and extra safety.
+```
+
+Such separation of concerns not only lowers the barrier of programming DRAs but also decomposes the verification and debugging tasks for the communication components (platform independent) and robot control components (platform dependent).
 Different tasks can then be addressed by the developers with specific expertise.
+
 
 ### Presentation Videos
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bxPmpVuFcQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="32%" src="https://www.youtube.com/embed/bxPmpVuFcQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="32%" src="https://www.youtube.com/embed/Hf8OUsXBIhc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="32%" src="https://www.youtube.com/embed/VMLmOHSlmj4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+### References Ordered by Relevance
++ Ritwika et al., *Koord: a language for programming and verifying distributed robotics application*, OOPSLA 2020
++ Ritwika et al., *CyPhyHouse: A programming, simulation, and deployment toolchain for heterogeneous distributed coordination*, ICRA 2020
++ Hsieh et al., *SkyTrakx: A Toolkit for Simulation and Verification of Unmanned Air-Traffic Management Systems*, ITSC 2021
++ Hsieh et al., *Programming Abstractions for Simulation and Testing on Smart Manufacturing Systems*, CASE 2022
++ Chiao Hsieh and Sayan Mitra, *Dione: A Protocol Verification System Built with Dafny for I/O Automata*, iFM 2019
 
 
 ## Epilogue: Safety assurance in addition to testing and simulation
