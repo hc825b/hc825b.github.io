@@ -4,13 +4,14 @@ title: 謝 橋 (Hsieh, Chiao)
 ---
 
 <img align=right alt="Selfie while working from home during COVID-19" width="30%"
+     style="padding-left: 10px; padding-bottom: 20px"
      src="/assets/pics/chiao-selfie-work-from-home.jpg">
 I am a PhD candidate in [CS @ Illinois] and research in
 [Programming Languages, Formal Methods, and Software Engineering][PL/FM/SE] area.
 Currently, I am doing research with my advisor, [Prof. Sayan Mitra][mitras] in [Reliable Autonomy Group][mitras-group],
 and work as a graduate research assistant at [Information Trust Institute][ITI].
 
-My broad research direction is to obtain the *provable safety assurance* on cyber-physical systems (CPS) beyond field testing and software simulation.
+My broad research direction is to obtain the *provable safety assurance* on cyber-physical systems (CPS) in addition to field testing and software simulation.
 Especially, my focus is on applying *formal methods* to verify CPS containing complex or underspecified components including distributed communication, incomplete vehicle dynamic model, vision based perception, and learning enabled controllers.
 
 [Research Projects](/_pages/projects.md) page describes the research projects with related publications.  
