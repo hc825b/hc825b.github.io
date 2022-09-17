@@ -17,10 +17,10 @@ Especially, my focus is on applying *formal methods* to verify CPS containing co
 [About 橋](/_pages/about.md) contains more informal descriptions of myself.  
 
 ## Links
-GitHub: https://github.com/hc825b  
-Google Scholar: https://scholar.google.com/citations?user=5RBFRegAAAAJ  
-ORCID: https://orcid.org/0000-0001-8339-9915  
-Linkedin: https://www.linkedin.com/in/hc825b  
+GitHub: <https://github.com/hc825b>  
+Google Scholar: <https://scholar.google.com/citations?user=5RBFRegAAAAJ>  
+ORCID: <https://orcid.org/0000-0001-8339-9915>  
+Linkedin: <https://www.linkedin.com/in/hc825b>  
 
 
 [CS @ Illinois]: https://cs.illinois.edu/
