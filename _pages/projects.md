@@ -25,7 +25,8 @@ Under construction.
 
 ## CyPhyHouse: toolchain for distributed robotics
 
-Project Webcite: https://cyphyhouse.github.io
+Project Webcite: <https://cyphyhouse.github.io>  
+References:
 
 I have been in the CyPhyHouse team since Summer 2018. CyPhyHouse aims to provide programming, debugging, and deployment for distributed robotic applications~(DRAs). Users can develope distributed applications using the high-level, hardware-agnostic, event driven Koord programming language included with CyPhyHouse, without requiring deep expertise in controller design or distributed network protocols.
 
@@ -38,13 +39,16 @@ The *hardware platform developers* then concentrates on supporting the robot con
 Such separation of concerns not only lowers the barrier of programming DRAs but also decomposes the verification and debugging tasks for the communication components~(platform independent) and robot control components~(platform dependent).
 Different tasks can then be addressed by the developers with specific expertise.
 
+### Presentation Videos
 
-### Differences from testing and simulation
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bxPmpVuFcQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Current best practices for the safety assurance of cyber-physical systems relies on extensive testing and simulating the systems to search for errors and falsify the design and implementation.
-When there is no error found, these techniques however at best only provide an estimate on the probability of error.
-These approaches usually suffers from the fact that unsafe events are inherently rare events.
-Hence, the amount of simulation and testing required to achieve a desired low error can be prohibitively high. (**TODO** Link to driving millions of miles to achieve human performance.)
+
+## Epilogue: Safety assurance in addition to testing and simulation
+
+Current best practices for the safety assurance of cyber-physical systems relies on extensive testing and simulating the systems to exhibits safety violations and falsify the design and implementation.
+These approaches however suffers from the fact that unsafe events are inherently rare events.
+Hence, the required amount of simulation and testing to find safety violations can be prohibitively high. (**TODO** Link to driving millions of miles to achieve human performance.)
 
 In comparison, our approaches for the safety assurance stem from the formal safety proof of the approximated abstract system.
 We can guarantee the worst case behavior of the approximated system will not violate the system requirement.
