@@ -3,6 +3,8 @@ layout: home
 title: 謝 橋 (Hsieh, Chiao)
 ---
 
+<img align=right alt="Selfie while working from home during COVID-19" width="30%"
+     src="/assets/pics/chiao-selfie-work-from-home.jpg">
 I am a PhD candidate in [CS @ Illinois] and research in
 [Programming Languages, Formal Methods, and Software Engineering][PL/FM/SE] area.
 Currently, I am doing research with my advisor, [Prof. Sayan Mitra][mitras] in [Reliable Autonomy Group][mitras-group],
