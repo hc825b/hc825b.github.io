@@ -65,5 +65,5 @@ Consider finding certificates for proving safety spec along with contract for pe
 
 ### References
 
-+ *Quantized Consensus*, https://www.sciencedirect.com/science/article/pii/S0005109807001045
-+ Our drone formation in AirSim: https://gitlab.engr.illinois.edu/aap/airsim-vision-formation
++ *Quantized Consensus*, <https://www.sciencedirect.com/science/article/pii/S0005109807001045>
++ Our drone formation in AirSim: <https://gitlab.engr.illinois.edu/aap/airsim-vision-formation>
