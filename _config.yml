@@ -20,6 +20,9 @@ orcid_id: 0000-0001-8339-9915
 markdown: kramdown
 theme: minima
 
+plugins:
+  - jekyll-last-modified-at
+
 defaults:
   - scope:
       path: "assets/icons"

@@ -2,6 +2,7 @@
 layout: post
 title:  "More and More Research Directions and Ideas"
 date:   2022-09-19 16:30:00 -0500
+last_modified_at: 2022-10-06 10:30:00 -0500
 categories: Ideas
 published:  true
 ---
@@ -51,6 +52,13 @@ Consider finding certificates for proving safety spec along with contract for pe
   - The definition of traces and SMT encoding is interesting and reasonable.
   - I have been exchanging emails with Anik, the first author, about improving SMT solving with extra *hints* encoded in SMT from dynamics of each agent.
   - I think the reachability analysis for dynamics and the AAP for vision can make his approach work on very interesting case studies.
+
++ ROS bags from field experiments on the GEM cart at highbay.
+
+  - https://uofi.box.com/s/8p7csfs7zxmyy4tjx7z3q5a6hn187ba7
+  - Contact me for access permission
+  - Dataset thanks to Hang Cui <https://hangpersonal.com/>
+
 + ROS bags from GRAIC by our group: <https://popgri.github.io/Race/>
   - Talk to Yan
 
