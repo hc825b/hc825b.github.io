@@ -7,20 +7,20 @@ permalink: /about/
 <img align=right alt="Portrait by my sister 0726 Crab" width="30%"
      src="/assets/pics/chiao-portrait-by-0726Crab.jpg">
 I am a PhD candidate in [CS @ Illinois] and research with my advisor, [Prof. Sayan Mitra][mitras], in
-[Programming Languages, Formal Methods, and Software Engineering][PL/FM/SE] area.
+Programming Languages, Formal Methods, and Software Engineering ([PL/FM/SE]) area.
 
-Before joining CS @ Illinois, I worked under Prof. Yu-fang Chen and Prof. Bao-yaw Wang as a research assistant in [Institute of Information Science](iis) in Academia Sinica.
-At the same time, I obtained my master's degree with Prof. Farn Wang at [Graduate Institute of Electronics Engineering](ntugiee) in Nation Taiwan University.
+Before joining CS @ Illinois, I worked under Prof. Yu-fang Chen and Prof. Bao-yaw Wang as a research assistant in [Institute of Information Science][iis] in Academia Sinica.
+At the same time, I obtained my master's degree with Prof. Farn Wang at [Graduate Institute of Electronics Engineering][ntugiee] in Nation Taiwan University.
 
-I finished my undergrad at [Department of Electrical Engineering](ntuee) in NTU. For my entire senior year, I had the chance to learn about hardware verification with Dr. Jason Chou and [Prof. Ric Huang](ric). I was then exposed to formal methods for the first time and saw their applications in Electronic Design Automation.
+I finished my undergrad at [Department of Electrical Engineering][ntuee] in NTU. For my entire senior year, I had the chance to learn about hardware verification with Dr. Jason Chou and [Prof. Ric Huang][ric]. I was then exposed to formal methods for the first time and saw their applications in Electronic Design Automation.
 
 I was born in Taiwan and learned to code in my junior high school.
 My first programming languages are Visual Basic and C/C++.
-I remember my first ever programming project is to find solutions to the 5x5 [LightsOut](lightsout) puzzle.
+I remember my first ever programming project is to find solutions to the 5x5 [LightsOut][lightsout] puzzle.
 
 
 [CS @ Illinois]: https://cs.illinois.edu/
-[PL/FM/SE]: https://cs.illinois.edu/research/programming-languages-formal-methods-and-software-engineering
+[PL/FM/SE]: https://cs.illinois.edu/research/areas/programming-languages-formal-methods-and-software-engineering
 
 [mitras]: http://mitras.ece.illinois.edu/
 [ITI]: https://iti.illinois.edu/

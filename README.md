@@ -11,7 +11,8 @@ scientist and a researcher.
 ### Install dependencies without sudo access
 
 ```bash
-bundle install --path vendor/bundle
+bundle config set --local path 'vendor/bundle'
+bundle install
 ```
 
 ### Build website locally with bundle
