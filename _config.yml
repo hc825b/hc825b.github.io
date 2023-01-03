@@ -39,6 +39,7 @@ exclude:
 
 header_pages:
   - _pages/projects.md
+  - _pages/cv.md
   - _pages/about.md
   - _pages/scribbles.md
   
