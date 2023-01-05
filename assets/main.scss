@@ -13,6 +13,11 @@ div.post-content a {
   }
 }
 
+iframe {
+  height: auto;
+  aspect-ratio: 16 / 9;
+}
+
 .footer-col-1 {
     width: -webkit-calc(35% - (#{$spacing-unit} / 2));
     width:         calc(35% - (#{$spacing-unit} / 2));
