@@ -92,11 +92,23 @@ For example, we certify a vision-based lane tracking system as a case study of o
 + Hsieh et al., *Assuring Safety of Vision-based Swarm Formation Control*, Under submission to ICRA 2023
 
 
-## Epilogue: Safety Assurance in addition to Testing and Simulation
+## Epilogue: Formal Safety Assurance **in addition to** Testing and Simulation
 
-Current best practices for the safety assurance of cyber-physical systems relies on extensive testing and simulating the systems to exhibits safety violations and falsify the design and implementation.
-These approaches however suffers from the fact that unsafe events are inherently rare events.
+Current best practices for the safety assurance of cyber-physical systems rely on extensive testing and simulating the systems to exhibit safety violations and falsify the design and implementation.
+These approaches however suffers from the fact that unsafe events happen in rare scenarios.
 Hence, the required amount of simulation and testing to find safety violations can be prohibitively high. (**TODO** Link to driving millions of miles to achieve human performance.)
 
 In comparison, our approaches for the safety assurance stem from the formal safety proof of the approximated abstract system.
 We can guarantee the worst case behavior of the approximated system will not violate the system requirement.
+However, our approaches or any other formal model-based approaches rely on the following assumption ---
+the formal model is faithfully representing or over-approximating all behaviors of the actual cyber-physical system.
+Validating this assumption can be as hard as solving the following open problems:
++ Resolve the Sim2Real gap
++ Formalize Operational Design Domain (ODD) in autonomous driving literatures or
+  Foreseeable Operating Conditions in overarching properties defined by FAA
+(**TODO** explain the connection from the assumption to the open problems.)
+
+In my opinion, it is more practical to view formal proofs as an approach to avoid the simulation and testing of *simple* scenarios.
+If we avoid the scenarios where formal proofs already can provide safety guarantees,
+we can guide the search of rare scenarios to expose unsafe behaviors.
+This in turn should speed up the whole verification and testing process.
