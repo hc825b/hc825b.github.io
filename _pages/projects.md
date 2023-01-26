@@ -74,7 +74,7 @@ Different tasks can then be addressed by the developers with specific expertise.
 In this project, we proposes a method of certifying autonomous systems that use deep learning for camera-based perception.
 For example, we certify a vision-based lane tracking system as a case study of our method.
 
-**TODO** Finish illustrting the following insights
+**TODO** Finish illustrating the following insights
 
 1. Use ground truth information to construct approximations of perception components.
 1. The approximation of the component preserves (a relaxation of) existing invariances for the approximated system, given that the invariances are proven w.r.t the ideal system.
@@ -110,5 +110,5 @@ Validating this assumption can be as hard as solving the following open problems
 
 In my opinion, it is more practical to view formal proofs as an approach to avoid the simulation and testing of *simple* scenarios.
 If we avoid the scenarios where formal proofs already can provide safety guarantees,
-we can guide the search of rare scenarios to expose unsafe behaviors.
+we can guide the search of rare scenarios to expose unsafe behaviors faster.
 This in turn should speed up the whole verification and testing process.
