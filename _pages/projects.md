@@ -23,10 +23,10 @@ I have been in the CyPhyHouse team since Summer 2018. CyPhyHouse aims to provide
 One key abstraction provided by the Koord language is *synchronous logically*.
 That is, Koord program language aims to provide a synchronous round-based semantics though physically running on a distributed asynchronous multi-robot system.
 Under this language semantic, *Koord users*, such as control theorists, can design the high level coordination logic with much simpler synchronous executions in mind.
-*Koord compiler developers* focus on design and implement the middleware that achieves the synchronous semantics with asynchronous communication primitives, i.e., [*Physically-Asynchronous Logically-Synchronous (PALS)* System][PALS].
+*Koord compiler developers* focus on design and implement the middleware that achieves the synchronous semantics with asynchronous communication, for example, [*Physically-Asynchronous Logically-Synchronous (PALS)* System][PALS].
 *Hardware platform developers* then concentrate on supporting the robot control commands delivered through the communication primitives for each kind of vehicles.
 
-[PALS]: http://publish.illinois.edu/cpsintegrationlab/rtsi-projects/architecture-design-and-analysis/complexity-reduction/physically-asynchronous-logically-synchronous-pals-system/
+[PALS]: http://hdl.handle.net/2142/11897
 
 
 This division of roles and tasks also matches my personal experiences in the CyPhyHouse team.
@@ -89,7 +89,7 @@ For example, we certify a vision-based lane tracking system as a case study of o
 ### References ordered by relevance:
 + Hsieh et al., *Verifying Controllers with Vision-based Perception using Safe Approximate Abstractions*, EMSOFT 2022, doi:[10.1109/TCAD.2022.3197508](https://doi.org/10.1109/TCAD.2022.3197508)
 + Abraham et al., *Industry-track: Challenges in Rebooting Autonomy with Deep Learned Perception*, EMSOFT 2022, doi:[10.1109/EMSOFT55006.2022.00016](https://doi.org/10.1109/EMSOFT55006.2022.00016)
-+ Hsieh et al., *Assuring Safety of Vision-based Swarm Formation Control*, Under submission to ICRA 2023
++ Hsieh et al., *Assuring Safety of Vision-based Swarm Formation Control*, arXiv 2022, doi:[10.48550/arXiv.2210.00982](https://doi.org/10.48550/arXiv.2210.00982)
 
 
 ## Epilogue: Formal Safety Assurance **in addition to** Testing and Simulation
@@ -104,11 +104,20 @@ However, our approaches or any other formal model-based approaches rely on the f
 the formal model is faithfully representing or over-approximating all behaviors of the actual cyber-physical system.
 Validating this assumption can be as hard as solving the following open problems:
 + Resolve the Sim2Real gap
-+ Formalize Operational Design Domain (ODD) in autonomous driving literatures or
-  Foreseeable Operating Conditions in overarching properties defined by FAA
++ Formalize Operational Design Domain (ODD) (in autonomous driving literatures) or
+  Foreseeable Operating Conditions (in overarching properties defined by FAA)
+
 (**TODO** explain the connection from the assumption to the open problems.)
 
-In my opinion, it is more practical to view formal proofs as an approach to avoid the simulation and testing of *simple* scenarios.
+In my opinion, it is more practical to view formal proofs as an approach to reduce the amount of simulation and testing of *simple* scenarios.
+This leads to three
+
+**Guided Search in Testing.**
 If we avoid the scenarios where formal proofs already can provide safety guarantees,
 we can guide the search of rare scenarios to expose unsafe behaviors faster.
 This in turn should speed up the whole verification and testing process.
+
+**Runtime Monitoring.**
+(**TODO** Describe how we may construct executable monitors over only observed variables.)
+We can integrate this monitor into the system to ensure safety.
+For instance, it can serve as the logic to switch between high performance controllers and high-assurance controllers in the [simplex architecture](https://doi.org/10.1109/MS.2001.936213) coined by Prof. Lui Sha.
