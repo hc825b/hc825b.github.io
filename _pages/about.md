@@ -88,7 +88,7 @@ Japanese to English by Google translate
 
 Both poems uses 謝橋 as a metonym of the "bridge" connecting to where the authors meet their ideal female or the performer they adore and admire, much like the Japanese idol in my interpretation.
 It originates from a talented 妓 (female performer trained in music and dancing, though its modern meaning has changed) with the surname 謝.
-謝家 (Xie's house) is then used to refer to the high end place to enjoy her performance (similar to a Geisha House),
+謝家 (Xie's house) is then used to refer to the high end place, usually a restaurant or a *tea house*, to enjoy her performance,
 and 謝橋 means the path to the place and, in my interpretation, symbolizes the connection to the great enjoyment from meeting their idol.
 
 
