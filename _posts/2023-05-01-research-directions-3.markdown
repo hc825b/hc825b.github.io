@@ -2,10 +2,21 @@
 layout: post
 title:  "Research Directions and Ideas: Part III"
 date:   2023-05-01 15:30:00 -0600
-last_modified_at: 2023-05-04 10:00:00 -0600
+last_modified_at: 2023-05-04 14:00:00 -0600
 categories: Ideas
 published:  true
 ---
+
++ Hybrid automata as system models and refinement to ROS programs an the simulation engine
+
+  - The reaction module is the abstraction of ROS programs.
+    Consider Khan Process Network~(KPN) as the intermediate model for 
+    abstracting ROS nodes and publish/subscribe communication paradigm
+    because KPN can be analyzed independently from communication delay
+    and interleaving of ROS nodes.
+  - Need a model of the environment that can be refined to match real
+    or simulated environments. An interesting topic is to allow
+    failure reproduction. If the hybrid automaton exhibits a failing execution, how do we instantiate a witness execution in the ROS program with the simulator.
 
 + Synthesize perception contracts in different *templates*
   - Receding horizon with temporal evolution
