@@ -6,8 +6,13 @@ permalink: /about/
 
 <img align=right alt="Portrait by my sister 0726 Crab" width="30%"
      src="/assets/pics/chiao-portrait-by-0726Crab.jpg">
-I am a PhD candidate in [CS @ Illinois] and research with my advisor, [Prof. Sayan Mitra][mitras], in
-Programming Languages, Formal Methods, and Software Engineering ([PL/FM/SE]) area.
+I am currently a postdoctoral researcher at [Graduate School of Informatics][i.kyoto-u] in Kyoto University.
+Currently, I am doing research in [Computer Software Group][fos.kuis.kyoto-u]
+and specifically working with Prof. Suenaga and Prof. Waga under the [CyPhAI] project.
+
+I received my doctoral degree from [CS @ Illinois] and completed my thesis with my advisor [Prof. Sayan Mitra in Reliable Autonomy Group][mitras-group] in
+Programming Languages, Formal Methods, and Software Engineering ([PL/FM/SE]) area
+and work as a graduate research assistant at [Information Trust Institute][ITI].
 
 Before joining CS @ Illinois, I worked under Prof. Yu-fang Chen and Prof. Bao-yaw Wang as a research assistant in [Institute of Information Science][iis] in Academia Sinica.
 At the same time, I obtained my master's degree with Prof. Farn Wang at [Graduate Institute of Electronics Engineering][ntugiee] in Nation Taiwan University.
@@ -19,10 +24,14 @@ My first programming languages are Visual Basic and C/C++.
 I remember my first ever programming project is to find solutions to the 5x5 [LightsOut][lightsout] puzzle.
 
 
+[i.kyoto-u]: https://www.i.kyoto-u.ac.jp/en/
+[fos.kuis.kyoto-u]: https://www.fos.kuis.kyoto-u.ac.jp/
+[CyPhAI]: https://cyphai.io/
+
 [CS @ Illinois]: https://cs.illinois.edu/
 [PL/FM/SE]: https://cs.illinois.edu/research/areas/programming-languages-formal-methods-and-software-engineering
 
-[mitras]: http://mitras.ece.illinois.edu/
+[mitras-group]: https://mitras.ece.illinois.edu/group.html
 [ITI]: https://iti.illinois.edu/
 
 [ntugiee]: https://giee.ntu.edu.tw/en/
@@ -50,6 +59,19 @@ As a computer science researcher that also has to learn about electrical enginee
 I found these facts interesting as it mentally matches to the root causes of bugs in programming like ambiguous language semantics, nondeterministic behaviors depending on context/environment, and most frustrating of all, different conventions in different communities.
 
 ### Syntax
+
+For native speakers of English or other phonetic languages, it is crucial to first understand that the combination of written English/Latin alphabets, i.e. syllables, can help pronounce a word almost all the time.
+This however does not work well for Chinese.
+From a historical perspective, the theory I like is that there were many different tribes/countries with their speaking systems developed independently in ancient mainland China.
+The written Chinese characters were however standardized *after* the first dynasty conquered most other tribes/countries.
+To unify the language for governing, the writing system is designed to associate with the semantics of words and sentences,
+and it is not as important to match different existing speaking systems with writing.
+As a result, different speaking systems do not match the writing well and become dialects we see in modern Chinese.
+There are also historical reasons to why Japaneses kanji and Chinese share so many characters.
+Unsurprisingly, the pronunciation of Japanese kanjis are also quite different from how the same characters are pronounced in Chinese.
+
+Here I will list my names in languages and dialects I am familiar with.
+
 #### How my name may be written
 
 正體中文(Traditional Chinese): 謝橋  
@@ -59,9 +81,19 @@ English: Hsieh, Chiao
 
 #### How my name may be pronounced or spelled
 
+**國語/普通话/华语 ([Standard Mandarin Chinese](https://en.wikipedia.org/wiki/Standard_Chinese))**  
 注音(Zhuyin): ㄒㄧㄝˋ ㄑㄧㄠˊ  
-拼音(Pinyin): Xiè Qiáo  
-音読み(On'yomi): シャ/sha キョウ/kyou  
+漢語拼音(Pinyin): Xiè Qiáo  
+
+**臺灣話/閩南語 ([Taiwanese Hokkien](https://en.wikipedia.org/wiki/Taiwanese_Hokkien))**  
+Audio files are coming soon...
+
+**日本語 (Japanese)**  
+音読み(On'yomi): シャ　キョウ<sup>1</sup>  
+カタカナ表記(Katakana): シェ　チャオ<sup>2</sup>
+
+<sup>1</sup>This is the existing pronunciation of 謝 and 橋 as Japanese Kanji.  
+<sup>2</sup>This to use Japanese katakana to mimic/spell the pronunciation of 謝橋 in Mandarin. This is currently the official way to spell names for all foreigners visiting Japan including people with Chinese names.
 
 I was told several times that my given name 橋 sounds almost identical to a common Italian word *Ciao* which can serve as both hello and goodbye.
 
@@ -80,10 +112,10 @@ Japanese to English by Google translate
 ### Appearance in Ancient Chinese Poems
 
 小令尊前見玉簫。銀燈一曲太妖嬈。歌中醉倒誰能恨，唱罷歸來酒未消。
-春悄悄，夜迢迢。碧雲天共楚宮遙。夢魂慣得無拘檢，又踏楊花過謝橋。
+春悄悄，夜迢迢。碧雲天共楚宮遙。夢魂慣得無拘檢，又踏楊花過<u>謝橋</u>。
 —— 晏幾道《鷓鴣天》
 
-誰翻樂府淒涼曲？風也蕭蕭，雨也蕭蕭，瘦盡燈花又一宵。不知何事縈懷抱，醒也無聊，醉也無聊，夢也何曾到謝橋。
+誰翻樂府淒涼曲？風也蕭蕭，雨也蕭蕭，瘦盡燈花又一宵。不知何事縈懷抱，醒也無聊，醉也無聊，夢也何曾到<u>謝橋</u>。
 —— 納蘭性德《採桑子》
 
 Both poems uses 謝橋 as a metonym of the "bridge" connecting to where the authors meet their ideal female or the performer they adore and admire, much like the Japanese idol in my interpretation.
