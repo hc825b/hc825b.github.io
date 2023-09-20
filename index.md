@@ -1,11 +1,11 @@
 ---
 layout: page
-title: 謝 橋 (Hsieh, Chiao)
+title: 謝 橋/Hsieh, Chiao/シェ チャオ
 ---
 
-<img align=right alt="Selfie while working from home during COVID-19" width="30%"
+<img align=right alt="Selfie outside my office at Research Building Number 15 in Kyoto University" width="30%"
      style="padding-left: 10px; padding-bottom: 20px"
-     src="/assets/pics/chiao-selfie-work-from-home.jpg">
+     src="/assets/pics/chiao-selfie-kyoto-u-research-building-15.jpg">
 I am a postdoctoral researcher at [Graduate School of Informatics][i.kyoto-u] in Kyoto University.
 My main research area is within
 Programming Languages, Formal Methods, and Software Engineering ([PL/FM/SE]).
