@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "More Research Direction and Ideas"
+title:  "More Research Directions and Ideas"
 date:   2020-11-16 07:30:00 -0500
 categories: Ideas
 published:  true

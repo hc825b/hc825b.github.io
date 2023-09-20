@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Research Directions and Ideas: Part III"
+title:  "Research Directions and Ideas 3"
 date:   2023-05-01 15:30:00 -0600
 last_modified_at: 2023-05-04 14:00:00 -0600
 categories: Ideas
