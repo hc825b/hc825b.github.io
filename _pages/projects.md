@@ -8,10 +8,80 @@ My broad research direction is the *formal assurance* of the cyber-physical syst
 
 I have been investigating several systems containing incomplete vehicle dynamics, vision-based perception pipelines, communication protocols, or combinations of all.
 The main intuition behind all case studies is to achieve the *separation of concerns* via abstractions of components.
-We repeatedly apply the abstraction then refinement principle to decompose the verification problem of CPS into component level verification subproblems.
+We repeatedly apply the abstraction then refinement principle to decompose the verification problem of CPS into component-level verification subproblems.
 
 With this principle in mind,
 the crucial step is to select a proper abstraction for each component that is suitable for domain specific formal analyses.
+
+
+## System Safety Assurance via Perception Contracts of Deep Learning Components 
+
+In this line of research, we aim to certify autonomous systems that use machine learning (ML) components for perception.
+Especially, we want to address vision-based perception that uses deep neural networks (DNN) to process camera images and extract information for decision and control.
+
+The research started in late 2020, amid the first year of COVID-19 pandemic,
+when we faced the uncertainty in perception components (and in life).
+We first studied the CropFollow perception component for the TerraSentia robot.
+[TerraSentia] is a small ground vehicle for agricultural applications developed by Prof. Girish Chowdhary's team in UIUC,
+and CropFollow is the component for visual navigation in the crop field.
+I was involved in [the agricultural robot project][agbot] funded by USDA/NIFA and started to discuss with students from Prof. Chowdhary and Prof. Campbell's groups.
+I remember that I sent a message *around Christmas* in 2020 and got responses *before New Year* from Arun, Prof. Chowdhary's student.
+Then, I got the simulator for CropFollow and TerraSentia and started some preliminary experiments to celebrate the coming of 2021.
+
+[TerraSentia]: https://www.earthsense.co/home
+[agbot]: https://cps-vo.org/node/76005
+
+
+### Challenges in Certifying Systems with DNN-Components
+
+In my opinion, two major challenges in the formal analysis on DNNs and systems using them for perception are as below:
+
++ **High dimensional input space**: For example, the input image size for VGG16, a well-known DNN architecture, is 224x224 pixels with RGB colors.
+  That is 224x224x3=150528 Bytes, which includes about 10<sup>45313</sup> different images.
++ **Hard-to-formalize perceptual tasks**: Consider lane detection for autonomous driving, which detect the lane markers for lane keeping assist system.
+  It is unclear how to formally define images that "contains a lane" in terms of pixel values.
+
+They are listed within the five main challenges in the article ["Toward Verified Artificial Intelligence"](https://doi.org/10.1145/3503914).
+As pointed out in the article, the insight to address the above challenges is to actually consider the whole system and the system-level specification instead of the individual DNN. **TODO**
+
+### Approximated Abstractions of Perceptions
+
+**TODO** Our first attempt is to 
+
+### Why Perception Contracts
+
+With the great help from Angello and Madhu, we formalized the notion of *perception contracts* as the component-level specification for perception components.
+Perception contracts captures errors in perception that preserve system-level properties when systems act upon them.
+We develop a theory of perception contracts and design learning algorithms for synthesizing them.
+
+With perception contracts, we can decompose the certification of the systems into two problems:
+
+1. certify that the deep learning components for perception conforms to its perception contract, and
+1. assuming that its perception contract is conformed, certify the system.
+
+
+The second task can be performed using traditional techniques in formal verification of cyber-physical systems.
+
+**TODO** Finish illustrating the following insights
+
+1. Use ground truth information to construct approximations of perception components.
+1. The approximation of the component preserves (a relaxation of) the existing invariance for the approximated system, given that the invariance is proven w.r.t the ideal system.
+1. The approximation can be validated w.r.t the actual component via testing/simulation and obtain statistical guarantees.
+
+
+### Presentation Videos
+
+<iframe width="50%" src="https://www.youtube.com/embed/ABTUA2OdV0E?start=1778&end=2436" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+### Links
+<https://publish.illinois.edu/aproximated-abstract-perception/>
+
+### References Ordered by Relevance
++ Astorga et al., *Perception Contracts for Safety of ML-Enabled Systems*, OOPSLA 2023, doi:[10.1145/3622875](https://doi.org/10.1145/3622875)
++ Hsieh et al., *Verifying Controllers with Vision-based Perception using Safe Approximate Abstractions*, EMSOFT 2022, doi:[10.1109/TCAD.2022.3197508](https://doi.org/10.1109/TCAD.2022.3197508)
++ Abraham et al., *Industry-track: Challenges in Rebooting Autonomy with Deep Learned Perception*, EMSOFT 2022, doi:[10.1109/EMSOFT55006.2022.00016](https://doi.org/10.1109/EMSOFT55006.2022.00016)
++ Hsieh et al., *Assuring Safety of Vision-based Swarm Formation Control*, arXiv 2022, doi:[10.48550/arXiv.2210.00982](https://doi.org/10.48550/arXiv.2210.00982)
++ Arun et al., *Learned Visual Navigation for Under-Canopy Agricultural Robots*, RSS 2021, doi:[10.15607/RSS.2021.XVII.019](https://doi.org/10.15607/RSS.2021.XVII.019)
 
 
 ## Programming Abstractions for Distributed Robotics
@@ -58,38 +128,13 @@ Different tasks can then be addressed by the developers with specific expertise.
 
 <br/>
 
-### References ordered by relevance
+### References Ordered by Relevance
 + Ghosh et al., *Koord: A Language for Programming and Verifying Distributed Robotics Application*, OOPSLA 2020, doi:[10.1145/3428300](https://doi.org/10.1145/3428300)
 + Ghosh et al., *CyPhyHouse: A Programming, Simulation, and Deployment Toolchain for Heterogeneous Distributed Coordination*, ICRA 2020, doi:[10.1109/ICRA40945.2020.9196513](https://doi.org/10.1109/ICRA40945.2020.9196513)
 + Hsieh et al., *SkyTrakx: A Toolkit for Simulation and Verification of Unmanned Air-Traffic Management Systems*, ITSC 2021, doi:[10.1109/ITSC48978.2021.9564492](https://doi.org/10.1109/ITSC48978.2021.9564492)
 + Hsieh et al., *Programming Abstractions for Simulation and Testing on Smart Manufacturing Systems*, CASE 2022, doi:[10.1109/CASE49997.2022.9926564](https://doi.org/10.1109/CASE49997.2022.9926564)
 + Chiao Hsieh and Sayan Mitra, *Dione: A Protocol Verification System Built with Dafny for I/O Automata*, iFM 2019, doi:[10.1109/ITSC48978.2021.9564492](https://doi.org/10.1109/ITSC48978.2021.9564492)
 
-
-## System Safety Assurance via Approximate Abstractions of Deep Learning Components 
-
-<https://publish.illinois.edu/aproximated-abstract-perception/>
-
-
-In this project, we proposes a method of certifying autonomous systems that use deep learning for camera-based perception.
-For example, we certify a vision-based lane tracking system as a case study of our method.
-
-**TODO** Finish illustrating the following insights
-
-1. Use ground truth information to construct approximations of perception components.
-1. The approximation of the component preserves (a relaxation of) existing invariances for the approximated system, given that the invariances are proven w.r.t the ideal system.
-1. The approximation can be validated w.r.t the actual component via testing/simulation and obtain statistical guarantees.
-
-
-### Presentation Videos
-
-<iframe width="50%" src="https://www.youtube.com/embed/ABTUA2OdV0E?start=1778&end=2436" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
-### References ordered by relevance:
-+ Hsieh et al., *Verifying Controllers with Vision-based Perception using Safe Approximate Abstractions*, EMSOFT 2022, doi:[10.1109/TCAD.2022.3197508](https://doi.org/10.1109/TCAD.2022.3197508)
-+ Abraham et al., *Industry-track: Challenges in Rebooting Autonomy with Deep Learned Perception*, EMSOFT 2022, doi:[10.1109/EMSOFT55006.2022.00016](https://doi.org/10.1109/EMSOFT55006.2022.00016)
-+ Hsieh et al., *Assuring Safety of Vision-based Swarm Formation Control*, arXiv 2022, doi:[10.48550/arXiv.2210.00982](https://doi.org/10.48550/arXiv.2210.00982)
 
 
 ## Epilogue: Formal Safety Assurance **in addition to** Testing and Simulation
