@@ -8,11 +8,19 @@ scientist and a researcher.
 
 ## Develop locally
 
+### Install Ruby and Bundler
+
+I use the command below on Ubuntu 20.04.
+
+```bash
+$ sudo apt install ruby-dev ruby-bundler
+```
+
 ### Install dependencies without sudo access
 
 ```bash
-bundle config set --local path 'vendor/bundle'
-bundle install
+$ bundle config set --local path 'vendor/bundle'
+$ bundle install
 ```
 
 ### Build website locally with bundle
