@@ -8,7 +8,7 @@ My broad research direction is the *formal assurance* of the cyber-physical syst
 
 I have been investigating several systems containing incomplete vehicle dynamics, vision-based perception pipelines, communication protocols, or combinations of all.
 The main intuition behind all case studies is to achieve the *separation of concerns* via abstractions of components.
-We repeatedly apply the abstraction then refinement principle to decompose the verification problem of CPS into component-level verification subproblems.
+We repeatedly apply the abstraction then refinement principle to decompose the verification problem of CPS into component-level verification sub-problems.
 
 With this principle in mind,
 the crucial step is to select a proper abstraction for each component that is suitable for domain specific formal analyses.
@@ -21,28 +21,41 @@ Especially, we want to address vision-based perception that uses deep neural net
 
 The research started in late 2020, amid the first year of COVID-19 pandemic,
 when we faced the uncertainty in perception components (and in life).
-We first studied the CropFollow perception component for the TerraSentia robot.
-[TerraSentia] is a small ground vehicle for agricultural applications developed by Prof. Girish Chowdhary's team in UIUC,
+We first studied the [CropFollow] perception component for the [TerraSentia] robot.
+TerraSentia is a small ground vehicle for agricultural applications developed by Prof. Girish Chowdhary's team in UIUC,
 and CropFollow is the component for visual navigation in the crop field.
 I was involved in [the agricultural robot project][agbot] funded by USDA/NIFA and started to discuss with students from Prof. Chowdhary and Prof. Campbell's groups.
-I remember that I sent a message *around Christmas* in 2020 and got responses *before New Year* from Arun, Prof. Chowdhary's student.
+I clearly remember that I sent a message *around Christmas* in 2020 and got responses *before New Year* from [Arun], Prof. Chowdhary's PhD student at that time.
 Then, I got the simulator for CropFollow and TerraSentia and started some preliminary experiments to celebrate the coming of 2021.
 
 [TerraSentia]: https://www.earthsense.co/home
-[agbot]: https://cps-vo.org/node/76005
+[agbot]: https://archive.cps-vo.org/node/76005
+[Arun]: https://scholar.google.com/citations?user=peIOOn8AAAAJ
+[CropFollow]: https://arxiv.org/abs/2107.02792
 
 
-### Challenges in Certifying Systems with DNN-Components
+### Challenges in Certifying Systems with DNN Components
 
-In my opinion, two major challenges in the formal analysis on DNNs and systems using them for perception are as below:
+In my opinion, two major challenges in the formal analysis on DNN and systems using DNN for perception are as below:
 
 + **High dimensional input space**: For example, the input image size for VGG16, a well-known DNN architecture, is 224x224 pixels with RGB colors.
   That is 224x224x3=150528 Bytes, which includes about 10<sup>45313</sup> different images.
-+ **Hard-to-formalize perceptual tasks**: Consider lane detection for autonomous driving, which detect the lane markers for lane keeping assist system.
-  It is unclear how to formally define images that "contains a lane" in terms of pixel values.
++ **Hard-to-formalize perceptual tasks**: Consider lane detection for autonomous driving, which detects lane markers for the lane keeping assist system.
+It is unclear how to formally define images that "contain a lane" in terms of pixel values.
 
-They are listed within the five main challenges in the article ["Toward Verified Artificial Intelligence"](https://doi.org/10.1145/3503914).
-As pointed out in the article, the insight to address the above challenges is to actually consider the whole system and the system-level specification instead of the individual DNN. **TODO**
+These are two of the five main challenges listed in the article ["Toward Verified Artificial Intelligence"](https://doi.org/10.1145/3503914).
+As pointed out in the article, the insight to address the above challenges is to actually consider the whole system and the system-level specification instead of the individual DNN.
+We again consider the lane keeping assist system with a lane detection component as an example.
+For lane keeping, we not only need the information whether there are image pixels showing lane markers,
+but more importantly we need the estimated position of the ego vehicle and the detected lane for steering the vehicle.
+That is, the complete perception task is a *state-estimation* task,
+and the detection or classification tasks are only intermediate stages.
+This allows us to formally define perception tasks with respect to ground-truth states of the vehicle.
+
+**TODO**: add images to illustrate the insight that classification is usually an intermediate stage in the entire state estimation task.
+
+In addition to lane keeping, we found that this insight applies to many other perception tasks for self-driving cars such as pedestrian avoidance, automatic parking, etc., as well as for unmanned aerial vehicles including automatic landing and taxiing, visual odometry, and drone racing.
+
 
 ### Approximated Abstractions of Perceptions
 
@@ -51,13 +64,13 @@ As pointed out in the article, the insight to address the above challenges is to
 ### Why Perception Contracts
 
 With the great help from Angello and Madhu, we formalized the notion of *perception contracts* as the component-level specification for perception components.
-Perception contracts captures errors in perception that preserve system-level properties when systems act upon them.
+Perception contracts capture errors in perception that preserve system-level properties when systems act upon them.
 We develop a theory of perception contracts and design learning algorithms for synthesizing them.
 
 With perception contracts, we can decompose the certification of the systems into two problems:
 
-1. certify that the deep learning components for perception conforms to its perception contract, and
-1. assuming that its perception contract is conformed, certify the system.
+1. Certify that the deep learning components for perception conforms to its perception contract, and
+1. Assuming that its perception contract is conformed, certify the system.
 
 
 The second task can be performed using traditional techniques in formal verification of cyber-physical systems.
