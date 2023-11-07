@@ -14,7 +14,7 @@ I received my doctoral degree from [CS @ Illinois] and completed my thesis with 
 Programming Languages, Formal Methods, and Software Engineering ([PL/FM/SE]) area
 and work as a graduate research assistant at [Information Trust Institute][ITI].
 
-Before joining CS @ Illinois, I worked under Prof. Yu-fang Chen and Prof. Bao-yaw Wang as a research assistant in [Institute of Information Science][iis] in Academia Sinica.
+Before joining CS @ Illinois, I worked under Prof. Yu-Fang Chen and Prof. Bow-Yaw Wang as a research assistant in [Institute of Information Science][iis] in Academia Sinica.
 At the same time, I obtained my master's degree with Prof. Farn Wang at [Graduate Institute of Electronics Engineering][ntugiee] in Nation Taiwan University.
 
 I finished my undergrad at [Department of Electrical Engineering][ntuee] in NTU. For my entire senior year, I had the chance to learn about hardware verification with Dr. Jason Chou and [Prof. Ric Huang][ric]. I was then exposed to formal methods for the first time and saw their applications in Electronic Design Automation.
@@ -53,7 +53,7 @@ I remember my first ever programming project is to find solutions to the 5x5 [Li
 
 ## Fun facts about my name
 
-The two Chinese characters in my name are simple and common words, and kids in Chinese speaking countries will recognize them even before entering elementary schools.
+The two Chinese characters in my name are simple and common words, and kids in Chinese-speaking countries will recognize them even before entering elementary schools.
 The two characters however may be written, pronounced, and interpreted differently under different languages, regions, and contexts.
 As a computer science researcher that also has to learn about electrical engineering and mechanical engineering,
 I found these facts interesting as it mentally matches to the root causes of bugs in programming like ambiguous language semantics, nondeterministic behaviors depending on context/environment, and most frustrating of all, different conventions in different communities.
@@ -62,13 +62,13 @@ I found these facts interesting as it mentally matches to the root causes of bug
 
 For native speakers of English or other phonetic languages, it is crucial to first understand that the combination of written English/Latin alphabets, i.e. syllables, can help pronounce a word almost all the time.
 This however does not work well for Chinese.
-From a historical perspective, the theory I like is that there were many different tribes/countries with their speaking systems developed independently in ancient mainland China.
+From a historical perspective, the theory I like is that there were many tribes/countries with their speaking systems developed independently in ancient mainland China.
 The written Chinese characters were however standardized *after* the first dynasty conquered most other tribes/countries.
 To unify the language for governing, the writing system is designed to associate with the semantics of words and sentences,
 and it is not as important to match different existing speaking systems with writing.
 As a result, different speaking systems do not match the writing well and become dialects we see in modern Chinese.
 There are also historical reasons to why Japaneses kanji and Chinese share so many characters.
-Unsurprisingly, the pronunciation of Japanese kanjis are also quite different from how the same characters are pronounced in Chinese.
+Unsurprisingly, the pronunciations of Japanese Kanji are also quite different from how the same characters are pronounced in Chinese.
 
 Here I will list my names in languages and dialects I am familiar with.
 
@@ -92,7 +92,7 @@ Audio files are coming soon...
 音読み(On'yomi): シャ　キョウ<sup>1</sup>  
 カタカナ表記(Katakana): シェ　チャオ<sup>2</sup>
 
-<sup>1</sup>This is the existing pronunciation of 謝 and 橋 as Japanese Kanji.  
+<sup>1</sup>This is the existing pronunciations of 謝 and 橋 as Japanese Kanji.  
 <sup>2</sup>This to use Japanese katakana to mimic/spell the pronunciation of 謝橋 in Mandarin. This is currently the official way to spell names for all foreigners visiting Japan including people with Chinese names.
 
 I was told several times that my given name 橋 sounds almost identical to a common Italian word *Ciao* which can serve as both hello and goodbye.
@@ -100,13 +100,13 @@ I was told several times that my given name 橋 sounds almost identical to a com
 ### Semantics
 #### How characters in my name may be interpreted in different contexts
 
-Chinese to English by Google translate
-+ **謝**: 謝謝 -> thank, 感謝 -> appreciate, 凋謝 -> wither, 謝罪 -> apologize, 謝絕 -> decline, 新陳代謝 -> metabolism
-+ **橋**: 橋 -> bridge, 橋接器 -> bridge (as the networking device in Computer Network)
+Chinese to English by Google Translate
++ **謝**: 謝謝 → thanks, 感謝 → appreciate, 凋謝 → wither, 謝罪 → apologize, 謝絕 → decline, politely refuse, 新陳代謝 → metabolism
++ **橋**: 橋 → bridge, 橋接器 → bridge (as the networking device in Computer Network)
 
-Japanese to English by Google translate
-+ **謝**: 謝る(あやまる) -> apologize, 感謝(かんしゃ) -> appreciate, 謝絕(しゃぜつ) -> decline, 新陳代謝(しんちんたいしゃ) -> metabolism
-+ **橋**: 橋(はし) -> bridge
+Japanese to English by Google Translate
++ **謝**: 謝る(あやまる) → apologize, 感謝(かんしゃ) → appreciate, 謝絕(しゃぜつ) → decline, politely refuse, 新陳代謝(しんちんたいしゃ) → metabolism
++ **橋**: 橋(はし) → bridge
 
 
 ### Appearance in Ancient Chinese Poems
@@ -118,9 +118,9 @@ Japanese to English by Google translate
 誰翻樂府淒涼曲？風也蕭蕭，雨也蕭蕭，瘦盡燈花又一宵。不知何事縈懷抱，醒也無聊，醉也無聊，夢也何曾到<u>謝橋</u>。
 —— 納蘭性德《採桑子》
 
-Both poems uses 謝橋 as a metonym of the "bridge" connecting to where the authors meet their ideal female or the performer they adore and admire, much like the Japanese idol in my interpretation.
+Both poems use 謝橋 as a metonymy of the "bridge" connecting to where the authors meet their ideal female or the performer they adore and admire, much like the Japanese idol in my interpretation.
 It originates from a talented 妓 (female performer trained in music and dancing, though its modern meaning has changed) with the surname 謝.
-謝家 (Xie's house) is then used to refer to the high end place, usually a restaurant or a *tea house*, to enjoy her performance,
+謝家 (Xie's house) is then used to refer to the high-end place, usually a restaurant or a *tea house*, to enjoy her performance,
 and 謝橋 means the path to the place and, in my interpretation, symbolizes the connection to the great enjoyment from meeting their idol.
 
 
