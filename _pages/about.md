@@ -26,7 +26,7 @@ I remember my first ever programming project is to find solutions to the 5x5 [Li
 
 [i.kyoto-u]: https://www.i.kyoto-u.ac.jp/en/
 [fos.kuis.kyoto-u]: https://www.fos.kuis.kyoto-u.ac.jp/
-[CyPhAI]: https://cyphai.io/
+[CyPhAI]: https://cyphai-project.github.io/
 
 [CS @ Illinois]: https://cs.illinois.edu/
 [PL/FM/SE]: https://cs.illinois.edu/research/areas/programming-languages-formal-methods-and-software-engineering

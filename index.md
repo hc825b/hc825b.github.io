@@ -28,4 +28,4 @@ Linkedin: <https://www.linkedin.com/in/hc825b>
 
 [i.kyoto-u]: https://www.i.kyoto-u.ac.jp/en/
 [fos.kuis.kyoto-u]: https://www.fos.kuis.kyoto-u.ac.jp/
-[CyPhAI]: https://cyphai.io/
+[CyPhAI]: https://cyphai-project.github.io/
