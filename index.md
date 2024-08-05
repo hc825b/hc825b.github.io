@@ -16,6 +16,14 @@ My broad research direction is to obtain the *provable safety assurance* on cybe
 Especially, my focus is on applying *formal methods* to verify CPS containing complex or underspecified components including distributed communication, incomplete vehicle dynamic model, vision based perception, and learning enabled controllers.
 
 
+## Ongoing Projects
+
++ [Formal Analysis and Design of AI-intensive Cyber-Physical Systems][JSTCrest]  
+  Hired as a postdoc under JST CREST
++ [Safety Verification of Black Box Cyber-Physical Systems via Lyapunov Stability Certificates][JSPSStartUp]  
+  Funded by JSPS Research Activity Start-Up
+
+
 ## Sitemap
 [Research Projects](/_pages/projects.md) discusses our research projects with related publications.  
 [Curriculum Vitae](/_pages/cv.md) provides my CV.  
@@ -29,3 +37,6 @@ Linkedin: <https://www.linkedin.com/in/hc825b>
 [i.kyoto-u]: https://www.i.kyoto-u.ac.jp/en/
 [fos.kuis.kyoto-u]: https://www.fos.kuis.kyoto-u.ac.jp/
 [CyPhAI]: https://cyphai-project.github.io/
+
+[JSTCrest]: https://projectdb.jst.go.jp/grant/JST-PROJECT-20334578/
+[JSPSStartUp]: https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-24K23861/
