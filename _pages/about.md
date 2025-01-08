@@ -6,7 +6,7 @@ permalink: /about/
 
 <img align=right alt="Portrait by my sister 0726 Crab" width="30%"
      src="/assets/pics/chiao-portrait-by-0726Crab.jpg">
-I am currently a postdoctoral researcher at [Graduate School of Informatics][i.kyoto-u] in Kyoto University.
+I am currently a project-specific assistant professor at [Graduate School of Informatics][i.kyoto-u] in Kyoto University.
 Currently, I am doing research in [Computer Software Group][fos.kuis.kyoto-u]
 and specifically working with Prof. Suenaga and Prof. Waga under the [CyPhAI] project.
 
