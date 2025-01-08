@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "More and More Research Directions and Ideas"
+title:  "2 Research Directions and 2 Ideas"
 date:   2022-09-19 16:30:00 -0500
 last_modified_at: 2022-10-06 10:30:00 -0500
 categories: Ideas
