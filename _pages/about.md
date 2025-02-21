@@ -6,7 +6,7 @@ permalink: /about/
 
 <img align=right alt="Portrait by my sister 0726 Crab" width="30%"
      src="/assets/pics/chiao-portrait-by-0726Crab.jpg">
-I am currently a project-specific assistant professor at [Graduate School of Informatics][i.kyoto-u] in Kyoto University.
+I am currently a program-specific assistant professor at [Graduate School of Informatics][i.kyoto-u] in Kyoto University.
 Currently, I am doing research in [Computer Software Group][fos.kuis.kyoto-u]
 and specifically working with Prof. Suenaga and Prof. Waga under the [CyPhAI] project.
 
@@ -45,6 +45,8 @@ I remember my first ever programming project is to find solutions to the 5x5 [Li
 
 ## Services and Volunteering
 
++ Volunteer in KYOTO MARATHON 2025
++ Reviewer for Fast Abstracts Programs in ISSRE 2024
 + Student Volunteer in FLoC 2022
 + Artifact Evaluation Committee in ECOOP 2022 (Best Reviewer Award)
 + Graduate Mentor in PURE program in Fall 2018
@@ -56,7 +58,7 @@ I remember my first ever programming project is to find solutions to the 5x5 [Li
 The two Chinese characters in my name are simple and common words, and kids in Chinese-speaking countries will recognize them even before entering elementary schools.
 The two characters however may be written, pronounced, and interpreted differently under different languages, regions, and contexts.
 As a computer science researcher that also has to learn about electrical engineering and mechanical engineering,
-I found these facts interesting as it mentally matches to the root causes of bugs in programming like ambiguous language semantics, nondeterministic behaviors depending on context/environment, and most frustrating of all, different conventions in different communities.
+I found these facts interesting as it mentally matches the root causes of bugs in programming such as ambiguous language semantics, nondeterministic behaviors depending on context/environment, and most frustrating of all, different conventions in different communities.
 
 ### Syntax
 
@@ -67,7 +69,7 @@ The written Chinese characters were however standardized *after* the first dynas
 To unify the language for governing, the writing system is designed to associate with the semantics of words and sentences,
 and it is not as important to match different existing speaking systems with writing.
 As a result, different speaking systems do not match the writing well and become dialects we see in modern Chinese.
-There are also historical reasons to why Japaneses kanji and Chinese share so many characters.
+There are also historical reasons as to why Japaneses Kanji and Chinese share so many characters.
 Unsurprisingly, the pronunciations of Japanese Kanji are also quite different from how the same characters are pronounced in Chinese.
 
 Here I will list my names in languages and dialects I am familiar with.
@@ -77,7 +79,7 @@ Here I will list my names in languages and dialects I am familiar with.
 正體中文(Traditional Chinese): 謝橋  
 English: Hsieh, Chiao  
 简体中文(Simplified Chinese): 谢桥  
-日本漢字(Japanese Kanji): 謝橋  
+日本語漢字(Japanese Kanji): 謝橋  
 
 #### How my name may be pronounced or spelled
 
@@ -93,7 +95,7 @@ Audio files are coming soon...
 カタカナ表記(Katakana): シェ　チャオ<sup>2</sup>
 
 <sup>1</sup>This is the existing pronunciations of 謝 and 橋 as Japanese Kanji.  
-<sup>2</sup>This to use Japanese katakana to mimic/spell the pronunciation of 謝橋 in Mandarin. This is currently the official way to spell names for all foreigners visiting Japan including people with Chinese names.
+<sup>2</sup>This is using Japanese katakana to mimic/spell the pronunciation of 謝橋 in Mandarin. This is currently the official way to spell names for all foreigners visiting Japan including people with Chinese names.
 
 I was told several times that my given name 橋 sounds almost identical to a common Italian word *Ciao* which can serve as both hello and goodbye.
 
@@ -119,7 +121,7 @@ Japanese to English by Google Translate
 —— 納蘭性德《採桑子》
 
 Both poems use 謝橋 as a metonymy of the "bridge" connecting to where the authors meet their ideal female or the performer they adore and admire, much like the Japanese idol in my interpretation.
-It originates from a talented 妓 (female performer trained in music and dancing, though its modern meaning has changed) with the surname 謝.
+It originates from a talented 妓 (female performer trained in music and dancing, though its meaning has changed) with the surname 謝.
 謝家 (Xie's house) is then used to refer to the high-end place, usually a restaurant or a *tea house*, to enjoy her performance,
 and 謝橋 means the path to the place and, in my interpretation, symbolizes the connection to the great enjoyment from meeting their idol.
 
