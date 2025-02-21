@@ -84,15 +84,18 @@ English: Hsieh, Chiao
 #### How my name may be pronounced or spelled
 
 **國語/普通话/华语 ([Standard Mandarin Chinese](https://en.wikipedia.org/wiki/Standard_Chinese))**  
+{% include embed-audio.html src="/assets/audio/FullName-Mandarin.mp3" %}  
 注音(Zhuyin): ㄒㄧㄝˋ ㄑㄧㄠˊ  
 漢語拼音(Pinyin): Xiè Qiáo  
 
 **臺灣話/閩南語 ([Taiwanese Hokkien](https://en.wikipedia.org/wiki/Taiwanese_Hokkien))**  
-Audio files are coming soon...
+{% include embed-audio.html src="/assets/audio/FullName-TaiwaneseHokkien.mp3" %}  
 
 **日本語 (Japanese)**  
 音読み(On'yomi): シャ　キョウ<sup>1</sup>  
-カタカナ表記(Katakana): シェ　チャオ<sup>2</sup>
+{% include embed-audio.html src="/assets/audio/FullName-JapaneseKanji.mp3" %}  
+カタカナ表記(Katakana): シェ　チャオ<sup>2</sup>  
+{% include embed-audio.html src="/assets/audio/FullName-JapaneseKana.mp3" %}  
 
 <sup>1</sup>This is the existing pronunciations of 謝 and 橋 as Japanese Kanji.  
 <sup>2</sup>This is using Japanese katakana to mimic/spell the pronunciation of 謝橋 in Mandarin. This is currently the official way to spell names for all foreigners visiting Japan including people with Chinese names.
