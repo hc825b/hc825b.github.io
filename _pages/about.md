@@ -10,9 +10,9 @@ I am currently a program-specific assistant professor at [Graduate School of Inf
 Currently, I am doing research in [Computer Software Group][fos.kuis.kyoto-u]
 and specifically working with Prof. Suenaga and Prof. Waga under the [CyPhAI] project.
 
-I received my doctoral degree from [CS @ Illinois] and completed my thesis with my advisor [Prof. Sayan Mitra in Reliable Autonomy Group][mitras-group] in
+I received my doctoral degree from [CS @ Illinois], completed my thesis with my advisor [Prof. Sayan Mitra in Reliable Autonomy Group][mitras-group] in
 Programming Languages, Formal Methods, and Software Engineering ([PL/FM/SE]) area
-and work as a graduate research assistant at [Information Trust Institute][ITI].
+and worked as a graduate research assistant at [Information Trust Institute][ITI].
 
 Before joining CS @ Illinois, I worked under Prof. Yu-Fang Chen and Prof. Bow-Yaw Wang as a research assistant in [Institute of Information Science][iis] in Academia Sinica.
 At the same time, I obtained my master's degree with Prof. Farn Wang at [Graduate Institute of Electronics Engineering][ntugiee] in Nation Taiwan University.
@@ -45,7 +45,7 @@ I remember my first ever programming project is to find solutions to the 5x5 [Li
 
 ## Services and Volunteering
 
-+ Volunteer in KYOTO MARATHON 2025
++ Artifact Evaluation Reviewer in SPIN 2025
 + Reviewer for Fast Abstracts Programs in ISSRE 2024
 + Student Volunteer in FLoC 2022
 + Artifact Evaluation Committee in ECOOP 2022 (Best Reviewer Award)
