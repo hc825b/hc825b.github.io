@@ -84,7 +84,9 @@ The second task can be performed using traditional techniques in formal verifica
 
 ### Presentation Videos
 
-<iframe width="50%" src="https://www.youtube.com/embed/ABTUA2OdV0E?start=1778&end=2436" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="48%" src="https://www.youtube.com/embed/ABTUA2OdV0E?start=1778&end=2436" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="48%" src="https://www.youtube.com/embed/VT7nMsBT4f4?start=23341&end=24390" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Links
 <https://publish.illinois.edu/aproximated-abstract-perception/>
