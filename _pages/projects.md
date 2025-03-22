@@ -10,8 +10,7 @@ I have been investigating several systems containing incomplete vehicle dynamics
 The main intuition behind all case studies is to achieve the *separation of concerns* via abstractions of components.
 We repeatedly apply the abstraction then refinement principle to decompose the verification problem of CPS into component-level verification sub-problems.
 
-With this principle in mind,
-the crucial step is to select a proper abstraction for each component that is suitable for domain specific formal analyses.
+With this principle in mind, the crucial step is to select a proper abstraction for each component that is suitable for domain specific formal analyses.
 
 
 ## System Safety Assurance via Perception Contracts of Deep Learning Components 
@@ -25,13 +24,17 @@ We first studied the [CropFollow] perception component for the [TerraSentia] rob
 TerraSentia is a small ground vehicle for agricultural applications developed by Prof. Girish Chowdhary's team in UIUC,
 and CropFollow is the component for visual navigation in the crop field.
 I was involved in [the agricultural robot project][agbot] funded by USDA/NIFA and started to discuss with students from Prof. Chowdhary and Prof. Campbell's groups.
-I clearly remember that I sent a message *around Christmas* in 2020 and got responses *before New Year* from [Arun], Prof. Chowdhary's PhD student at that time.
+I clearly remember that I sent a message *around Christmas* in 2020 and got responses *before New Year* from Prof. Chowdhary's PhD students.
 Then, I got the simulator for CropFollow and TerraSentia and started some preliminary experiments to celebrate the coming of 2021.
+During 2021 and 2022, we further investigate the autonomous driving system on the GEM cart, an electrical golf cart for teaching autonomous driving technology in [Center for Autonomy][C4A] in UIUC. We particularly focused on lane detection for locating the cart itself using camera images within various driving scenarios.
+
+Besides all the research outcomes we obtained, these two case studies on real hardware platform really taught me the cross-disciplinary collaboration and the tremendous effort in building even an educational cyber-physical system. I was really lucky to have such an unique experience.
+
 
 [TerraSentia]: https://www.earthsense.co/home
 [agbot]: https://archive.cps-vo.org/node/76005
-[Arun]: https://scholar.google.com/citations?user=peIOOn8AAAAJ
 [CropFollow]: https://arxiv.org/abs/2107.02792
+[C4A]: https://autonomy.illinois.edu/
 
 
 ### Challenges in Certifying Systems with DNN Components
@@ -63,7 +66,7 @@ In addition to lane keeping, we found that this insight applies to many other pe
 
 ### Why Perception Contracts
 
-With the great help from Angello and Madhu, we formalized the notion of *perception contracts* as the component-level specification for perception components.
+With the great help from Angello and Prof. Madhusudan, we formalized the notion of *perception contracts* as the component-level specification for perception components.
 Perception contracts capture errors in perception that preserve system-level properties when systems act upon them.
 We develop a theory of perception contracts and design learning algorithms for synthesizing them.
 
@@ -103,7 +106,7 @@ The second task can be performed using traditional techniques in formal verifica
 
 Project Website: <https://cyphyhouse.github.io>  
 
-I have been in the CyPhyHouse team since Summer 2018. CyPhyHouse aims to provide programming, debugging, and deployment for *distributed robotic applications (DRAs)*. Users can develope distributed applications using the high-level, hardware-agnostic, event driven Koord programming language included with CyPhyHouse, without requiring deep expertise in controller design or distributed network protocols.
+I joined the CyPhyHouse team since Summer 2018 and primarily collaborated with Ritika at that time. CyPhyHouse aims to provide programming, debugging, and deployment for *distributed robotic applications (DRAs)*. Users can develope distributed applications using the high-level, hardware-agnostic, event driven Koord programming language included with CyPhyHouse, without requiring deep expertise in controller design or distributed network protocols.
 
 One key abstraction provided by the Koord language is *synchronous logically*.
 That is, Koord program language aims to provide a synchronous round-based semantics though physically running on a distributed asynchronous multi-robot system.
