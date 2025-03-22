@@ -47,7 +47,7 @@ LinkedIn: <https://www.linkedin.com/in/hc825b>
 ### During PhD Study
 
 + Perception Contracts for CPS with Vision-Based Perception
-  - National Robotics Initiative 2.0 (USDA/NIFA #2021-67021-33449)
+  - [National Robotics Initiative 2.0](https://archive.cps-vo.org/node/76005) (USDA/NIFA #2021-67021-33449)
 + Programming Language and Analysis for Distributed Robotic Applications
   - CyPhyHouse
     [<u>Project Website</u>](https://cyphyhouse.github.io) [<u>NSF #1629949</u>](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1629949)
