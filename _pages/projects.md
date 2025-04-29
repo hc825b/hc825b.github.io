@@ -13,6 +13,23 @@ We repeatedly apply the abstraction then refinement principle to decompose the v
 With this principle in mind, the crucial step is to select a proper abstraction for each component that is suitable for domain specific formal analyses.
 
 
+## Data-Driven Formal Stability Analysis on Black-Box CPS
+
+In this line of research, our focus is on the physical behaviors, i.e., continuous dynamics in CPS. We address the recurring issue that oftentimes the complete mathematical models of the continuous dynamics are unknown or only partially available. Hence, we study *black-box* or *gray-box* formal analyses which use input and output data or only partial internal information from CPS.
+
+The research started in late 2023 after I worked in Kyoto University as a postdoc for about three months. We had a discussion with [Prof. Kazumune Hashimoto] from Osaka University and explored the idea along the line of system identification. However, I was not satisfied with the huge amount of samples needed for building an accurate approximation to achieve a small error bound in the existing approach. We later realized a crucial fact that, to certify the stability, we do not need an accurate approximation everywhere in the state space. Hence, we started thinking of an approach that divides the state space into regions and obtains samples in a stability-guided way.
+
+During our several visits to France for the CyPhAI project in 2023 and 2024, [Dr. Aneel Tanwani] further pointed us to existing approaches of computing a triangulation as a strategy to divide the state space with observed states. We then had the insight of combining both triangulation and stability-guided sampling into a *counterexample-guided inductive synthesis* (CEGIS) approach.
+
+[Prof. Kazumune Hashimoto]: https://sites.google.com/view/kazumunehashimotoengpageupdate/home
+[Dr. Aneel Tanwani]: https://homepages.laas.fr/atanwani/
+
+
+### Stability-Guided Sampling and Approximation
+
+TODO
+
+
 ## System Safety Assurance via Perception Contracts of Deep Learning Components 
 
 In this line of research, we aim to certify autonomous systems that use machine learning (ML) components for perception.
@@ -98,7 +115,7 @@ The second task can be performed using traditional techniques in formal verifica
 + Astorga et al., *Perception Contracts for Safety of ML-Enabled Systems*, OOPSLA 2023, doi:[10.1145/3622875](https://doi.org/10.1145/3622875)
 + Hsieh et al., *Verifying Controllers with Vision-based Perception using Safe Approximate Abstractions*, EMSOFT 2022, doi:[10.1109/TCAD.2022.3197508](https://doi.org/10.1109/TCAD.2022.3197508)
 + Abraham et al., *Industry-track: Challenges in Rebooting Autonomy with Deep Learned Perception*, EMSOFT 2022, doi:[10.1109/EMSOFT55006.2022.00016](https://doi.org/10.1109/EMSOFT55006.2022.00016)
-+ Hsieh et al., *Assuring Safety of Vision-based Swarm Formation Control*, arXiv 2022, doi:[10.48550/arXiv.2210.00982](https://doi.org/10.48550/arXiv.2210.00982)
++ Hsieh et al., *Assuring Safety of Vision-Based Swarm Formation Control*, ACC 2024, doi:[10.23919/ACC60939.2024.10644491](https://doi.org/10.23919/ACC60939.2024.10644491)
 + Arun et al., *Learned Visual Navigation for Under-Canopy Agricultural Robots*, RSS 2021, doi:[10.15607/RSS.2021.XVII.019](https://doi.org/10.15607/RSS.2021.XVII.019)
 
 
