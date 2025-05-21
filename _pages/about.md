@@ -45,7 +45,8 @@ I remember my first ever programming project is to find solutions to the 5x5 [Li
 
 ## Services and Volunteering
 
-+ Artifact Evaluation Reviewer in SPIN 2025
++ Artifact Evaluation Committee in ATVA 2025
++ Artifact Evaluation Committee in SPIN 2025
 + Reviewer for Fast Abstracts Programs in ISSRE 2024
 + Student Volunteer in FLoC 2022
 + Artifact Evaluation Committee in ECOOP 2022 (Best Reviewer Award)
