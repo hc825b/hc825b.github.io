@@ -6,9 +6,11 @@ permalink: /about/
 
 <img align=right alt="Portrait by my sister 0726 Crab" width="30%"
      src="/assets/pics/chiao-portrait-by-0726Crab.jpg">
-I am currently a program-specific assistant professor at [Graduate School of Informatics][i.kyoto-u] in Kyoto University.
-Currently, I am doing research in [Computer Software Group][fos.kuis.kyoto-u]
-and specifically working with Prof. Suenaga and Prof. Waga under the [CyPhAI] project.
+I am a research assistant professor at [Japan Advanced Institute of Science and Technology][JAIST] (JAIST).
+Currently, I am doing research with Prof. Aoki, Prof. Tomita, Prof. Riviere, and Prof. Duong under the project, [Formal Methods and Verification Tools for Next-generation Automotive System Platforms][CREST FMAP].
+
+Before joining JAIST, I worked at [Graduate School of Informatics][i.kyoto-u] in Kyoto University.
+I worked in [Computer Software Group][fos.kuis.kyoto-u] with Prof. Suenaga and Prof. Waga under the [CyPhAI] project.
 
 I received my doctoral degree from [CS @ Illinois], completed my thesis with my advisor [Prof. Sayan Mitra in Reliable Autonomy Group][mitras-group] in
 Programming Languages, Formal Methods, and Software Engineering ([PL/FM/SE]) area
@@ -23,7 +25,8 @@ I was born in Taiwan and learned to code in my junior high school.
 My first programming languages are Visual Basic and C/C++.
 I remember my first ever programming project is to find solutions to the 5x5 [LightsOut][lightsout] puzzle.
 
-
+[JAIST]: https://www.jaist.ac.jp/english/
+[CREST FMAP]: https://www.jaist.ac.jp/project/crest_fmap/en/
 [i.kyoto-u]: https://www.i.kyoto-u.ac.jp/en/
 [fos.kuis.kyoto-u]: https://www.fos.kuis.kyoto-u.ac.jp/
 [CyPhAI]: https://cyphai-project.github.io/
@@ -45,6 +48,7 @@ I remember my first ever programming project is to find solutions to the 5x5 [Li
 
 ## Services and Volunteering
 
++ Review Committee in OOPSLA 2026
 + Artifact Evaluation Committee in ATVA 2025
 + Artifact Evaluation Committee in SPIN 2025
 + Reviewer for Fast Abstracts Programs in ISSRE 2024

@@ -6,16 +6,15 @@ title: 謝 橋/Hsieh, Chiao/シェ チャオ
 <img align=right alt="Selfie outside my office at Research Building Number 15 in Kyoto University" width="30%"
      style="padding-left: 10px; padding-bottom: 20px"
      src="/assets/pics/chiao-selfie-kyoto-u-research-building-15.jpg">
-I am a program-specific assistant professor at [Japan Advanced Institute of Science and Technology][JAIST] (JAIST).
+I am a reseach assistant professor at [Japan Advanced Institute of Science and Technology][JAIST] (JAIST).
 My main research area is within
 Programming Languages, Formal Methods, and Software Engineering.
-Currently, I am doing research specifically working with Prof. Aoki, Prof. Tomita, Prof. Rivere, and Prof.Duong under the project, [Formal Methods and Verification Tools for Next-generation Automotive System Platforms][CREST FMAP].
+Currently, I am doing research with Prof. Aoki, Prof. Tomita, Prof. Riviere, and Prof. Duong under the project, [Formal Methods and Verification Tools for Next-generation Automotive System Platforms][CREST FMAP].
 
 My broad research direction is to obtain the *provable safety assurance* on cyber-physical systems (CPS) in addition to field-testing and software simulation.
 Especially, my focus is on applying *formal methods* to verify CPS containing complex or underspecified components including distributed communication, incomplete vehicle dynamic model, vision based perception, and learning enabled controllers.
 
 [JAIST]: https://www.jaist.ac.jp/english/
-[fos.kuis.kyoto-u]: https://www.fos.kuis.kyoto-u.ac.jp/
 [CREST FMAP]: https://www.jaist.ac.jp/project/crest_fmap/en/
 
 
