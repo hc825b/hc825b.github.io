@@ -6,29 +6,32 @@ title: 謝 橋/Hsieh, Chiao/シェ チャオ
 <img align=right alt="Selfie outside my office at Research Building Number 15 in Kyoto University" width="30%"
      style="padding-left: 10px; padding-bottom: 20px"
      src="/assets/pics/chiao-selfie-kyoto-u-research-building-15.jpg">
-I am a program-specific assistant professor at [Graduate School of Informatics][i.kyoto-u] in Kyoto University.
+I am a program-specific assistant professor at [Japan Advanced Institute of Science and Technology][JAIST] (JAIST).
 My main research area is within
-Programming Languages, Formal Methods, and Software Engineering ([PL/FM/SE]).
-Currently, I am doing research in [Computer Software Group][fos.kuis.kyoto-u]
-and specifically working with Prof. Suenaga and Prof. Waga under the [CyPhAI] project.
+Programming Languages, Formal Methods, and Software Engineering.
+Currently, I am doing research specifically working with Prof. Aoki, Prof. Tomita, Prof. Rivere, and Prof.Duong under the project, [Formal Methods and Verification Tools for Next-generation Automotive System Platforms][CREST FMAP].
 
 My broad research direction is to obtain the *provable safety assurance* on cyber-physical systems (CPS) in addition to field-testing and software simulation.
 Especially, my focus is on applying *formal methods* to verify CPS containing complex or underspecified components including distributed communication, incomplete vehicle dynamic model, vision based perception, and learning enabled controllers.
 
-[i.kyoto-u]: https://www.i.kyoto-u.ac.jp/en/
+[JAIST]: https://www.jaist.ac.jp/english/
 [fos.kuis.kyoto-u]: https://www.fos.kuis.kyoto-u.ac.jp/
-[CyPhAI]: https://cyphai-project.github.io/
+[CREST FMAP]: https://www.jaist.ac.jp/project/crest_fmap/en/
 
 
-## Ongoing Projects
+## Ongoing Projects and Collaborations
++ [Formal Analysis and Design of AI-intensive Cyber-Physical Systems][JST_DB_CREST_FMAP]  
+  Hired as a research assistant professor under JST CREST
 
-+ [Formal Analysis and Design of AI-intensive Cyber-Physical Systems][JSTCrest]  
-  Hired as a program-specific researcher (postdoc → assistant professor) under JST CREST
-+ [Safety Verification of Black Box Cyber-Physical Systems via Lyapunov Stability Certificates][JSPSStartUp]  
-  Funded by JSPS Research Activity Start-Up
++ Trustworthy Cyber-Physical Systems via Contracts for AI-Enabled Perception  
+  Personal project fund starting FY 2026. To be announced.
 
-[JSTCrest]: https://projectdb.jst.go.jp/grant/JST-PROJECT-20334578/
-[JSPSStartUp]: https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-24K23861/
++ [AIを含むソフトウェアのための形式検証手法][KAKEN_DB_25H01113]  
+  Joining as a co-Investigator starting FY 2026. To be announced.
+
+
+[JST_DB_CREST_FMAP]: https://projectdb.jst.go.jp/grant/JST-PROJECT-23826147/
+[KAKEN_DB_25H01113]: https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-25H01113/
 
 
 ## Sitemap
@@ -43,6 +46,16 @@ LinkedIn: <https://www.linkedin.com/in/hc825b>
 
 
 ## Past Projects
+
+### Project-Specific Researcher at Kyoto University
+
++ [Formal Analysis and Design of AI-intensive Cyber-Physical Systems][JST_DB_CyPhAI]  
+  Hired as a program-specific researcher (postdoc → assistant professor) under JST CREST
++ [Safety Verification of Black Box Cyber-Physical Systems via Lyapunov Stability Certificates][KAKEN_DB_24K23861]  
+  Funded by JSPS Research Activity Start-Up
+
+[JST_DB_CyPhAI]: https://projectdb.jst.go.jp/grant/JST-PROJECT-20334578/
+[KAKEN_DB_24K23861]: https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-24K23861/
 
 ### During PhD Study
 
