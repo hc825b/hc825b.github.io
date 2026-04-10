@@ -7,7 +7,7 @@ permalink: /about/
 <img align=right alt="Portrait by my sister 0726 Crab" width="30%"
      src="/assets/pics/chiao-portrait-by-0726Crab.jpg">
 I am a research assistant professor at [Japan Advanced Institute of Science and Technology][JAIST] (JAIST).
-Currently, I am doing research with Prof. Aoki, Prof. Tomita, Prof. Riviere, and Prof. Duong under the project, [Formal Methods and Verification Tools for Next-generation Automotive System Platforms][CREST FMAP].
+Currently, I am doing research with Prof. Aoki, Prof. Tomita, Prof. Riviere, and Prof. Tran under the project, [Formal Methods and Verification Tools for Next-generation Automotive System Platforms][CREST FMAP].
 
 Before joining JAIST, I worked at [Graduate School of Informatics][i.kyoto-u] in Kyoto University.
 I worked in [Computer Software Group][fos.kuis.kyoto-u] with Prof. Suenaga and Prof. Waga under the [CyPhAI] project.
