@@ -19,17 +19,19 @@ Especially, my focus is on applying *formal methods* to verify CPS containing co
 
 
 ## Ongoing Projects and Collaborations
-+ [Formal Analysis and Design of AI-intensive Cyber-Physical Systems][JST_DB_CREST_FMAP]  
-  Hired as a research assistant professor under JST CREST
++ [Formal Methods and Verification Tools for Next-generation Automotive System Platform][CREST FMAP]  
+  - Hired as a research assistant professor under JST CREST
+  - JST Project [#JPMJCR23M1][JST_DB_CREST_FMAP]
 
-+ Trustworthy Cyber-Physical Systems via Contracts for AI-Enabled Perception  
-  Personal project fund starting FY 2026. To be announced.
++ [Trustworthy Cyber-Physical Systems via Contracts for AI-Enabled Perception][KAKEN_DB_26K21195]  
+  Funded by JSPS Grant-in-Aid for Early-Career Scientists
 
 + [AIを含むソフトウェアのための形式検証手法][KAKEN_DB_25H01113]  
   Joining as a co-Investigator starting FY 2026. To be announced.
 
 
 [JST_DB_CREST_FMAP]: https://projectdb.jst.go.jp/grant/JST-PROJECT-23826147/
+[KAKEN_DB_26K21195]: https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-26K21195/
 [KAKEN_DB_25H01113]: https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-25H01113/
 
 
@@ -48,11 +50,13 @@ LinkedIn: <https://www.linkedin.com/in/hc825b>
 
 ### Project-Specific Researcher at Kyoto University
 
-+ [Formal Analysis and Design of AI-intensive Cyber-Physical Systems][JST_DB_CyPhAI]  
-  Hired as a program-specific researcher (postdoc → assistant professor) under JST CREST
++ [Formal Analysis and Design of AI-intensive Cyber-Physical Systems][CyPhAI]  
+  - Hired as a program-specific researcher (postdoc → assistant professor) under JST CREST
+  - JST Project [#JPMJCR2012][JST_DB_CyPhAI]
 + [Safety Verification of Black Box Cyber-Physical Systems via Lyapunov Stability Certificates][KAKEN_DB_24K23861]  
   Funded by JSPS Research Activity Start-Up
 
+[CyPhAI]: https://cyphai-project.github.io/
 [JST_DB_CyPhAI]: https://projectdb.jst.go.jp/grant/JST-PROJECT-20334578/
 [KAKEN_DB_24K23861]: https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-24K23861/
 
