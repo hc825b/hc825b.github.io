@@ -31,7 +31,7 @@ Especially, my focus is on applying *formal methods* to verify CPS containing co
 
 
 [JST_DB_CREST_FMAP]: https://projectdb.jst.go.jp/grant/JST-PROJECT-23826147/
-[KAKEN_DB_26K21195]: https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-26K21195/
+[KAKEN_DB_26K21195]: https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-26K21195/
 [KAKEN_DB_25H01113]: https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-25H01113/
 
 
@@ -58,7 +58,7 @@ LinkedIn: <https://www.linkedin.com/in/hc825b>
 
 [CyPhAI]: https://cyphai-project.github.io/
 [JST_DB_CyPhAI]: https://projectdb.jst.go.jp/grant/JST-PROJECT-20334578/
-[KAKEN_DB_24K23861]: https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-24K23861/
+[KAKEN_DB_24K23861]: https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-24K23861/
 
 ### During PhD Study
 
