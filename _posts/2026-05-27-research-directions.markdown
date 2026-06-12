@@ -7,6 +7,22 @@ categories: Ideas
 published:  false
 ---
 
+# Module Contract Synthesis Problem
+
+How to derive module-level contracts for perception, decision, or control modules in ADS from system-level specifications?
+* Formalzation of assumptions and guarantees conceptually are all **sets of trajectories**
+  + E.g., assumptions for scenario-based analysis is also a filter to look for trajectories of interest in a dataset, and guarantees as a predicate is applied to decide if the trajectory satisfies or violates the specification.
+* Two intuiitive choices of representing a set of trajectories are (signal) temporal logics and (hybrid) automata
+  + The filter and the predicate can be implemented either as evaluating a logic formula or accepting/rejecting by an automata
+
+| Techniques          | Temporal Logic | Automata                       |
+| ------------------- | -------------- | ------------------------------ |
+| Contract Algebra    | AND, OR, NOT   | Compose, Nondet., Complement   |
+| Data-driven Synth.  | SyGus          | Automata Learning              |
+| Spec-Guided Approx. | Interpolants   | Property Directed Reachability |
+
+* Decomposition of system-level specification remains unclear
+
 # Theoretical Descriptions
 
 Temporally Permissive Perception Contract (TPPC)
