@@ -7,6 +7,9 @@ categories: Ideas
 published:  True
 ---
 
+{% include mathjax-v3.html %}
+
+
 # Module Contract Synthesis Problem for Automated Driving Systems
 
 How to derive module-level contracts for perception, decision, or control modules in ADS from system-level specifications?
