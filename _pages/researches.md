@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Research Projects
-permalink: /projects/
+title: Research Works
+permalink: /researches/
 ---
 
 My broad research direction is the *formal assurance* of the cyber-physical system (CPS) containing complex components that are incompletely specified or currently intractable for existing formal verification techniques.
@@ -13,21 +13,34 @@ We repeatedly apply the abstraction then refinement principle to decompose the v
 With this principle in mind, the crucial step is to select a proper abstraction for each component that is suitable for domain specific formal analyses.
 
 
-## Data-Driven Formal Stability Analysis on Black-Box CPS
+## Data-Driven Formal Analysis on Black-Box CPS
 
 In this line of research, our focus is on the physical behaviors, i.e., continuous dynamics in CPS. We address the recurring issue that oftentimes the complete mathematical models of the continuous dynamics are unknown or only partially available. Hence, we study *black-box* or *gray-box* formal analyses which use input and output data or only partial internal information from CPS.
 
-The research started in late 2023 after I worked in Kyoto University as a postdoc for about three months. We had a discussion with [Prof. Kazumune Hashimoto] from Osaka University and explored the idea along the line of system identification. However, I was not satisfied with the huge amount of samples needed for building an accurate approximation to achieve a small error bound in the existing approach. We later realized a crucial fact that, to certify the stability, we do not need an accurate approximation everywhere in the state space. Hence, we started thinking of an approach that divides the state space into regions and obtains samples in a stability-guided way.
+Our main motivating example is none other than the automated driving system (ADS) software stack, [Autoware]. **TODO**
 
-During our several visits to France for the CyPhAI project in 2023 and 2024, [Dr. Aneel Tanwani] further pointed us to existing approaches of computing a triangulation as a strategy to divide the state space with observed states. We then had the insight of combining both triangulation and stability-guided sampling into a *counterexample-guided inductive synthesis* (CEGIS) approach.
+[Autoware]: https://autoware.org/
 
-[Prof. Kazumune Hashimoto]: https://sites.google.com/view/kazumunehashimotoengpageupdate/home
-[Dr. Aneel Tanwani]: https://homepages.laas.fr/atanwani/
+### Survey and Comparison on Hybrid Automata Learning
 
+**TODO**
+
+References:
+**TODO**
 
 ### Stability-Guided Sampling and Approximation
 
-TODO
+The research started in late 2023 after I worked as a postdoc in Kyoto University with [Prof. Kohei Suenaga] and [Prof. Masaki Waga] for about three months. We had a discussion with [Prof. Kazumune Hashimoto] from Osaka University and explored the idea along the line of system identification. However, I was not satisfied with the huge amount of samples needed for building an accurate approximation to achieve a small error bound in the existing approach. We later realized a crucial fact that, to certify the stability, we do not need an accurate approximation everywhere in the state space. Hence, we started thinking of an approach that divides the state space into regions and obtains samples in a stability-guided way.
+
+During our several visits to France for the CyPhAI project in 2023 and 2024, [Dr. Aneel Tanwani] further pointed us to existing approaches of computing a triangulation as a strategy to divide the state space with observed states. We then had the insight of combining both triangulation and stability-guided sampling into a *counterexample-guided inductive synthesis* (CEGIS) approach.
+
+[Prof. Kohei Suenaga]: https://ksuenaga.github.io/
+[Prof. Masaki Waga]: https://www.fos.kuis.kyoto-u.ac.jp/~mwaga/
+[Prof. Kazumune Hashimoto]: https://sites.google.com/view/kazumunehashimotoengpageupdate/home
+[Dr. Aneel Tanwani]: https://homepages.laas.fr/atanwani/
+
+References:
+1.  Hsieh et al., *Certifying Lyapunov Stability of Black-Box Nonlinear Systems via Counterexample Guided Synthesis*, HSCC 2025, doi:[10.1145/3716863.3718047](https://doi.org/10.1145/3716863.3718047)
 
 
 ## System Safety Assurance via Perception Contracts of Deep Learning Components 
@@ -123,7 +136,7 @@ The second task can be performed using traditional techniques in formal verifica
 
 Project Website: <https://cyphyhouse.github.io>  
 
-I joined the CyPhyHouse team since Summer 2018 and primarily collaborated with Ritika at that time. CyPhyHouse aims to provide programming, debugging, and deployment for *distributed robotic applications (DRAs)*. Users can develope distributed applications using the high-level, hardware-agnostic, event driven Koord programming language included with CyPhyHouse, without requiring deep expertise in controller design or distributed network protocols.
+I joined the CyPhyHouse team since Summer 2018 and primarily collaborated with Ritwika at that time. CyPhyHouse aims to provide programming, debugging, and deployment for *distributed robotic applications (DRAs)*. Users can develop distributed applications using the high-level, hardware-agnostic, event driven Koord programming language included with CyPhyHouse, without requiring deep expertise in controller design or distributed network protocols.
 
 One key abstraction provided by the Koord language is *synchronous logically*.
 That is, Koord program language aims to provide a synchronous round-based semantics though physically running on a distributed asynchronous multi-robot system.

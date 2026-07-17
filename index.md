@@ -5,10 +5,9 @@ title: 謝 橋/Hsieh, Chiao/シェ チャオ
 
 <img align=right alt="Selfie outside my office at Research Building Number 15 in Kyoto University" width="30%"
      style="padding-left: 10px; padding-bottom: 20px"
-     src="/assets/pics/chiao-selfie-kyoto-u-research-building-15.jpg">
+     src="/assets/pics/chiao-portray-jaist-2026.jpg">
 I am a reseach assistant professor at [Japan Advanced Institute of Science and Technology][JAIST] (JAIST).
-My main research area is within
-Programming Languages, Formal Methods, and Software Engineering.
+My main research area is within Programming Languages, Formal Methods, and Software Engineering.
 Currently, I am doing research with Prof. Aoki, Prof. Tomita, Prof. Riviere, and Prof. Tran under the project, [Formal Methods and Verification Tools for Next-generation Automotive System Platforms][CREST FMAP].
 
 My broad research direction is to obtain the *provable safety assurance* on cyber-physical systems (CPS) in addition to field-testing and software simulation.
@@ -20,14 +19,16 @@ Especially, my focus is on applying *formal methods* to verify CPS containing co
 
 ## Ongoing Projects and Collaborations
 + [Formal Methods and Verification Tools for Next-generation Automotive System Platform][CREST FMAP]  
-  - Hired as a research assistant professor under JST CREST
+  (FY 2023-2028)  
+  - Hired as a research assistant professor from FY 2026
   - JST Project [#JPMJCR23M1][JST_DB_CREST_FMAP]
 
-+ [Trustworthy Cyber-Physical Systems via Contracts for AI-Enabled Perception][KAKEN_DB_26K21195]  
-  Funded by JSPS Grant-in-Aid for Early-Career Scientists
++ [Trustworthy Cyber-Physical Systems via Contracts for AI-Enabled Perception][KAKEN_DB_26K21195] (FY 2026-2028)  
+  - Individual grant funded by JSPS Grant-in-Aid for Early-Career Scientists
 
-+ [AIを含むソフトウェアのための形式検証手法][KAKEN_DB_25H01113]  
-  Joining as a co-Investigator starting FY 2026. To be announced.
++ [AIを含むソフトウェアのための形式検証手法][KAKEN_DB_25H01113] (FY 2025-2029)  
+  - Joined as a co-Investigator from FY 2026  
+  - Ongoing collaboration with Prof. Suenaga and Prof. Waga in Kyoto University
 
 
 [JST_DB_CREST_FMAP]: https://projectdb.jst.go.jp/grant/JST-PROJECT-23826147/
@@ -36,7 +37,7 @@ Especially, my focus is on applying *formal methods* to verify CPS containing co
 
 
 ## Sitemap
-[Research Projects](/_pages/projects.md) discusses our research projects with related publications.  
+[Research Works](/_pages/researches.md) discusses our concrete research works with related publications.  
 [Curriculum Vitae](/_pages/cv.md) provides my CV.  
 [About 橋](/_pages/about.md) contains informal descriptions of myself.  
 
@@ -50,11 +51,13 @@ LinkedIn: <https://www.linkedin.com/in/hc825b>
 
 ### Project-Specific Researcher at Kyoto University
 
-+ [Formal Analysis and Design of AI-intensive Cyber-Physical Systems][CyPhAI]  
-  - Hired as a program-specific researcher (postdoc → assistant professor) under JST CREST
++ [Formal Analysis and Design of AI-intensive Cyber-Physical Systems (CyPhAI)][CyPhAI]  
+  (FY 2020-2025)
+  - Hired as a program-specific researcher (postdoc → assistant professor) in FY 2023-2025.
   - JST Project [#JPMJCR2012][JST_DB_CyPhAI]
 + [Safety Verification of Black Box Cyber-Physical Systems via Lyapunov Stability Certificates][KAKEN_DB_24K23861]  
-  Funded by JSPS Research Activity Start-Up
+  (FY 2024-2025)
+  - Individual grant funded by JSPS Research Activity Start-Up
 
 [CyPhAI]: https://cyphai-project.github.io/
 [JST_DB_CyPhAI]: https://projectdb.jst.go.jp/grant/JST-PROJECT-20334578/
