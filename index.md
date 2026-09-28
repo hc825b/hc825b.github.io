@@ -46,6 +46,11 @@ GitHub: <https://github.com/hc825b>
 ORCiD: <https://orcid.org/0000-0001-8339-9915>  
 LinkedIn: <https://www.linkedin.com/in/hc825b>  
 
+## To Prospective Students Interested in JAIST
+
+Please do NOT request for my supervision. I am not in a position to officially supervise students per the regulation of JAIST. You risk making your email addresses automatically *flagged and reported as spams*.
+
+*"Behind every warning label, there is a story."*
 
 ## Past Projects
 
