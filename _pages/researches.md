@@ -17,7 +17,14 @@ With this principle in mind, the crucial step is to select a proper abstraction 
 
 In this line of research, our focus is on the physical behaviors, i.e., continuous dynamics in CPS. We address the recurring issue that oftentimes the complete mathematical models of the continuous dynamics are unknown or only partially available. Hence, we study *black-box* or *gray-box* formal analyses which use input and output data or only partial internal information from CPS.
 
-Our main motivating example is none other than the automated driving system (ADS) software stack, [Autoware]. **TODO**
+<details markdown="1">
+
+Our motivating example is the automated driving system (ADS). In particular, we focus on analyzing the open source software stack for autonomous driving, [Autoware], that has been deployed to 
+
+**TODO:**
++ Add the news about the accident of the autonomous bus at Komatsu city
++ Safety evaluation framework proposed by JAMA and integrated into ISO standard
+
 
 [Autoware]: https://autoware.org/
 
@@ -42,11 +49,16 @@ During our several visits to France for the CyPhAI project in 2023 and 2024, [Dr
 References:
 1.  Hsieh et al., *Certifying Lyapunov Stability of Black-Box Nonlinear Systems via Counterexample Guided Synthesis*, HSCC 2025, doi:[10.1145/3716863.3718047](https://doi.org/10.1145/3716863.3718047)
 
+</details>
+
 
 ## System Safety Assurance via Perception Contracts of Deep Learning Components 
 
 In this line of research, we aim to certify autonomous systems that use machine learning (ML) components for perception.
 Especially, we want to address vision-based perception that uses deep neural networks (DNN) to process camera images and extract information for decision and control.
+
+
+<details markdown="1">
 
 The research started in late 2020, amid the first year of COVID-19 pandemic,
 when we faced the uncertainty in perception components (and in life).
@@ -131,12 +143,16 @@ The second task can be performed using traditional techniques in formal verifica
 + Hsieh et al., *Assuring Safety of Vision-Based Swarm Formation Control*, ACC 2024, doi:[10.23919/ACC60939.2024.10644491](https://doi.org/10.23919/ACC60939.2024.10644491)
 + Arun et al., *Learned Visual Navigation for Under-Canopy Agricultural Robots*, RSS 2021, doi:[10.15607/RSS.2021.XVII.019](https://doi.org/10.15607/RSS.2021.XVII.019)
 
+</details>
+
 
 ## Programming Abstractions for Distributed Robotics
 
 Project Website: <https://cyphyhouse.github.io>  
 
-I joined the CyPhyHouse team since Summer 2018 and primarily collaborated with Ritwika at that time. CyPhyHouse aims to provide programming, debugging, and deployment for *distributed robotic applications (DRAs)*. Users can develop distributed applications using the high-level, hardware-agnostic, event driven Koord programming language included with CyPhyHouse, without requiring deep expertise in controller design or distributed network protocols.
+CyPhyHouse aims to provide programming, debugging, and deployment for *distributed robotic applications (DRAs)*. Users can develop distributed applications using the high-level, hardware-agnostic, event driven Koord programming language included with CyPhyHouse, without requiring deep expertise in controller design or distributed network protocols. I joined the CyPhyHouse team since Summer 2018 and primarily collaborated with Ritwika at that time.
+
+<details markdown="1">
 
 One key abstraction provided by the Koord language is *synchronous logically*.
 That is, Koord program language aims to provide a synchronous round-based semantics though physically running on a distributed asynchronous multi-robot system.
@@ -183,6 +199,7 @@ Different tasks can then be addressed by the developers with specific expertise.
 + Hsieh et al., *Programming Abstractions for Simulation and Testing on Smart Manufacturing Systems*, CASE 2022, doi:[10.1109/CASE49997.2022.9926564](https://doi.org/10.1109/CASE49997.2022.9926564)
 + Chiao Hsieh and Sayan Mitra, *Dione: A Protocol Verification System Built with Dafny for I/O Automata*, iFM 2019, doi:[10.1109/ITSC48978.2021.9564492](https://doi.org/10.1109/ITSC48978.2021.9564492)
 
+</details>
 
 
 ## Epilogue: Formal Safety Assurance **in addition to** Testing and Simulation
@@ -194,7 +211,7 @@ Hence, the required amount of simulation and testing to find safety violations c
 In comparison, our approaches for the safety assurance stem from the formal safety proof of the approximated abstract system.
 We can guarantee the worst case behavior of the approximated system will not violate the system requirement.
 However, our approaches or any other formal model-based approaches rely on the following assumption ---
-the formal model is faithfully representing or over-approximating all behaviors of the actual cyber-physical system.
+**the formal model is faithfully representing or over-approximating all behaviors of the actual cyber-physical system.**
 Validating this assumption can be as hard as solving the following open problems:
 + Resolve the Sim2Real gap
 + Formalize Operational Design Domain (ODD) (in autonomous driving literatures) or
