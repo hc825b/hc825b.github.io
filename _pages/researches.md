@@ -17,9 +17,10 @@ With this principle in mind, the crucial step is to select a proper abstraction 
 
 In this line of research, our focus is on the physical behaviors, i.e., continuous dynamics in CPS. We address the recurring issue that oftentimes the complete mathematical models of the continuous dynamics are unknown or only partially available. Hence, we study *black-box* or *gray-box* formal analyses which use input and output data or only partial internal information from CPS.
 
-<details markdown="1">
+Our motivating example is the automated driving system (ADS). In particular, we focus on analyzing the open source software stack for **autonomous bus driving**, [Autoware], that has been deployed to several real-world testing sites including [Taipei, Taiwan], [Istanbul, Turkey], and the first commercial autonomous bus service at [Komatsu, Japan] since 2024.
 
-Our motivating example is the automated driving system (ADS). In particular, we focus on analyzing the open source software stack for autonomous driving, [Autoware], that has been deployed to 
+
+<details markdown="1">
 
 **TODO:**
 + Add the news about the accident of the autonomous bus at Komatsu city
@@ -27,13 +28,18 @@ Our motivating example is the automated driving system (ADS). In particular, we 
 
 
 [Autoware]: https://autoware.org/
+[Taipei, Taiwan]: https://www.youtube.com/watch?v=Nkjf5qvImuY
+[Istanbul, Turkey]: https://www.youtube.com/watch?v=BD70Be-kO58
+[Komatsu, Japan]: https://www.youtube.com/watch?v=LNWAsEb885c
+
 
 ### Survey and Comparison on Hybrid Automata Learning
 
-**TODO**
+**TODO** Add the story about three different approaches for hybrid automata learning developed independently under the same JST CREST project, but we only find this out at the last two years of the project due to lack of exchange and in-person visit during COVID. We therefore decide to do a comparison study.
 
 References:
-**TODO**
+1. Kochdumper et al., *Evaluating Hybrid Automata Learning Tools Based on Their Success in Formal Verification*, MED 2026, doi:[10.1109/med70602.2026.11598498](https://doi.org/10.1109/med70602.2026.11598498)
+
 
 ### Stability-Guided Sampling and Approximation
 
@@ -88,7 +94,7 @@ In my opinion, two major challenges in the formal analysis on DNN and systems us
 + **Hard-to-formalize perceptual tasks**: Consider lane detection for autonomous driving, which detects lane markers for the lane keeping assist system.
 It is unclear how to formally define images that "contain a lane" in terms of pixel values.
 
-These are two of the five main challenges listed in the article ["Toward Verified Artificial Intelligence"](https://doi.org/10.1145/3503914).
+These are two of the five main challenges listed in the article ["Toward Verified Artificial Intelligence" (Seshia et al., 2022)](https://doi.org/10.1145/3503914).
 As pointed out in the article, the insight to address the above challenges is to actually consider the whole system and the system-level specification instead of the individual DNN.
 We again consider the lane keeping assist system with a lane detection component as an example.
 For lane keeping, we not only need the information whether there are image pixels showing lane markers,
@@ -206,21 +212,21 @@ Different tasks can then be addressed by the developers with specific expertise.
 
 Current best practices for the safety assurance of cyber-physical systems rely on extensive testing and simulating the systems to exhibit safety violations and falsify the design and implementation.
 These approaches however suffers from the fact that unsafe events happen in rare scenarios.
-Hence, the required amount of simulation and testing to find safety violations can be prohibitively high. (**TODO** Link to driving millions of miles to achieve human performance.)
+Hence, if the verification is done in a naïve way, the required amount of simulation and testing runs for safety assurance can be prohibitively high ([Kalra and Paddock, 2016](https://doi.org/10.1016/j.tra.2016.09.010)).
 
 In comparison, our approaches for the safety assurance stem from the formal safety proof of the approximated abstract system.
-We can guarantee the worst case behavior of the approximated system will not violate the system requirement.
+We can guarantee the worst case behavior of the approximated system will *never* violate the system requirement mathematically.
 However, our approaches or any other formal model-based approaches rely on the following assumption ---
-**the formal model is faithfully representing or over-approximating all behaviors of the actual cyber-physical system.**
+**the formal model is faithfully representing all behaviors of the actual cyber-physical system.**
 Validating this assumption can be as hard as solving the following open problems:
-+ Resolve the Sim2Real gap
++ Resolve the *reality gap* in simulation ([Jakobi et al., 1995](https://doi.org/10.1007/3-540-59496-5_337)) or called the sim-to-real gap nowadays
 + Formalize Operational Design Domain (ODD) (in autonomous driving literatures) or
   Foreseeable Operating Conditions (in overarching properties defined by FAA)
 
 (**TODO** explain the connection from the assumption to the open problems.)
 
-In my opinion, it is more practical to view formal proofs as an approach to reduce the amount of simulation and testing of *simple* scenarios.
-This leads to three
+In my opinion, it is more practical to view formal proofs as an approach to reduce the amount of simulation and testing on *formally expressible and provable scenarios*.
+This leads to three different directions for safety assurance of CPS:
 
 **Guided Search in Testing.**
 If we avoid the scenarios where formal proofs already can provide safety guarantees,
@@ -230,4 +236,8 @@ This in turn should speed up the whole verification and testing process.
 **Runtime Monitoring.**
 (**TODO** Describe how we may construct executable monitors over only observed variables.)
 We can integrate this monitor into the system to ensure safety.
-For instance, it can serve as the logic to switch between high performance controllers and high-assurance controllers in the [simplex architecture](https://doi.org/10.1109/MS.2001.936213) coined by Prof. Lui Sha.
+For instance, it can serve as the logic to switch between high performance controllers and high-assurance controllers in the [simplex architecture (Sha, 2001)](https://doi.org/10.1109/MS.2001.936213) coined by Prof. Lui Sha.
+
+**Trustworthy System Architecture and Interface Design for Explainable Safety.**
+AI-enabled components are becoming the mainstream in foreseeable future, but its black-box nature is still the main concern for safety.
+(**TODO** One approach is to reason with safety over input/output interfaces of AI-enabled components. For example, we can provide an argument that the system is safe if the output of AI-enabled components is always as expected under normal input. To provide such arguments, the system architecture has to be designed so that we can cleanly separate the analysis on AI-enabled components from other components.)
